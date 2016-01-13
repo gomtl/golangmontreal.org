@@ -1,0 +1,37 @@
+---
+theme: "polymer"
+
+baseurl: "https://golangmontreal.org"
+languageCode: "en-CA"
+title: "Golang Montréal - #gomtl"
+
+paginate: 10 # optional
+copyright: "(ɔ) 2015 Copyleft. The #gomtl team."
+
+MetaDataFormat: "yaml"
+
+permalinks:
+  post: "/:year/:month/:day/:filename/"
+
+params:
+  profile: "images/profile.jpg" # optional
+  twitter: "GolangMontreal" # optional
+  github: "gomtl" # optional
+  googleAnalyticsUserID: "UA-XXXXXXXX-1"
+
+DefaultContentLang: en
+
+Multilingual:
+  en:
+    weight: 1
+    params:
+      author: "#gomtl team"
+
+  fr:
+    weight: 2
+    params:
+      author: "l'équipe #gomtl"
+    languageCode: "fr-CA"
+    copyright: "(ɔ) 2015 L'équipe #gomtl. Tous droits renversés."
+
+---
