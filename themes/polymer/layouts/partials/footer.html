@@ -1,0 +1,63 @@
+{{ $baseurl := .Site.BaseURL }}
+{{ $lang := .Site.RenderLanguage }}
+
+      <paper-item>
+
+        <div class="flex"></div>
+        {{with .Site.Params.facebook}}
+          <a href="https://www.facebook.com/{{ . }}"><paper-icon-button src="{{$baseurl}}/images/facebook-dreamstale25.png"></paper-icon-button></a>
+        {{end}}
+        {{with .Site.Params.twitter}}
+          <a href="https://twitter.com/{{ . }}"><paper-icon-button src="{{$baseurl}}/images/twitter-dreamstale71.png"></paper-icon-button></a>
+        {{end}}
+        {{with .Site.Params.gplus}}
+          <a href="https://google.com/+{{ . }}"><paper-icon-button src="{{$baseurl}}/images/google+-dreamstale37.png"></paper-icon-button></a>
+        {{end}}
+        {{with .Site.Params.linkedin}}
+          <a href="https://www.linkedin.com/in/{{ . }}"><paper-icon-button src="{{$baseurl}}/images/linkedin-dreamstale45.png"></paper-icon-button></a>
+        {{end}}
+        {{with .Site.Params.github}}
+          <a href="https://github.com/{{ . }}"><paper-icon-button src="{{$baseurl}}/images/github2-dreamstale35.png"></paper-icon-button></a>
+        {{end}}
+          <a href="{{$baseurl}}/{{$lang}}/index.xml"><paper-icon-button src="{{$baseurl}}/images/feed-dreamstale27.png"></paper-icon-button></a>
+
+      </paper-item>
+
+      <paper-item>
+        <div class="copyright">{{.Site.Copyright}}</div>
+        <div class="flex"></div>
+        <div class="design">Thanks to <a href="http://pdevty.github.io/blog/">pdevty</a> for the design</div>
+      </paper-item>
+    </paper-header-panel>
+  </paper-drawer-panel>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.1.0/highlight.min.js"></script>
+  <script>hljs.configure({tabReplace: '    '}); hljs.initHighlightingOnLoad();</script>
+  {{with  .Site.Params.googleAnalyticsUserID }}
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    ga('create', '{{.}}', 'auto');
+    ga('send', 'pageview');
+  </script>
+  {{end}}
+
+  {{ with .Site.DisqusShortname }}
+  <script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES * * */
+    var disqus_shortname = '{{ . }}';
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        if (!document.querySelector('#disqus_thread')) { return; }
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+  </script>
+  {{end}}
+
+</body>
+</html>

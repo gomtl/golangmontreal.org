@@ -1,0 +1,39 @@
+{{ partial "header.html" . }}
+
+{{ $baseurl := .Site.BaseURL }}
+{{ $lang := .Site.RenderLanguage }}
+
+<div class="content">
+
+  <div class="article">
+
+    {{ partial "tagzone.html" . }}
+
+    <div class="title">{{ .Title }}</div>
+
+    <div class="description">{{ .Content }}</div>
+
+    <div>
+    {{ with .Site.DisqusShortname }}
+      {{ partial "disqus.html" . }}
+    {{ end }}
+    </div>
+  </div>
+
+<paper-item>
+    {{if .Prev}}
+    <a href="{{.Prev.Permalink}}"><paper-fab icon="chevron-left"></paper-fab></a>
+    {{else}}
+    <paper-fab disabled icon="chevron-left"></paper-fab>
+    {{end}}
+    <div class="flex"></div>
+    {{if .Next}}
+    <a href="{{.Next.Permalink}}"><paper-fab icon="chevron-right"></paper-fab></a>
+    {{else}}
+    <paper-fab disabled icon="chevron-right"></paper-fab>
+    {{end}}
+</paper-item>
+
+</div>
+
+{{ partial "footer.html" . }}
