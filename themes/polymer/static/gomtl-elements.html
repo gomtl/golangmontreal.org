@@ -1,4 +1,4 @@
-<link rel="import" href="bower_components/paper-button/paper-button.html">
+<!-- link rel="import" href="bower_components/paper-button/paper-button.html" -->
 
 
 <dom-module id="gomtl-article">
@@ -9,32 +9,58 @@
 
   </template>
   <script>
-  Polymer({
-    is: 'gomtl-article',
-    properties: {},
-    ready: function() {
-    }
-  });
+  Polymer({is: 'gomtl-article'});
   </script>
 </dom-module>
 
-<dom-module id="gomtl-hero" class="container">
+<dom-module id="gomtl-hero">
   <style>
   :host {
     display: block;
   }
+  img {
+    max-width: 248px;
+  }
+  .logo-again {
+    text-align: center;
+  }
+  @media (min-width: 961px) {
+    .small-view {
+      display: none;
+    }
+    .hero-text {
+      text-align: right;
+    }
+  }
+  @media (max-width: 960px) {
+    .large-view {
+      display: none;
+    }
+    .hero-text {
+      text-align: center;
+    }
+  }
   </style>
 
   <template>
-    <paper-button>PUSH ME!</paper-button>
+    <div class="layout horizontal">
+      <div class="flex hero-text">
+
+        <content></content>
+
+      </div>
+      <div class="flex large-view" style="text-align: center;">
+
+        <img src="/images/gomtl-logo-512.png">
+
+      </div>
+    </div>
+    <div class="small-view logo-again">
+      <img src="/images/gomtl-logo-512.png">
+    </div>
   </template>
   <script>
-  Polymer({
-    is: 'gomtl-hero',
-    properties: {},
-    ready: function() {
-    }
-  });
+  Polymer({is: 'gomtl-hero'});
   </script>
 </dom-module>
 
@@ -49,11 +75,6 @@
 
   </template>
   <script>
-  Polymer({
-    is: 'gomtl-latest-news',
-    properties: {},
-    ready: function() {
-    }
-  });
+  Polymer({is: 'gomtl-latest-news'});
   </script>
 </dom-module>

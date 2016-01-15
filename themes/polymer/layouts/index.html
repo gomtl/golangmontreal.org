@@ -1,9 +1,47 @@
 {{ partial "header.html" . }}
+{{ $lang := .Site.RenderLanguage }}
 
-<gomtl-hero></gomtl-hero>
+{{ $nextEvent := (index .Site.Sections.event 0).Page }}
+{{ $eventData := $nextEvent.Params.event }}
 
-<gomtl-latest-news>
-{{ partial "content.html" . }}
-</gomtl-latest-news>
+<section>
+  <gomtl-hero class="container">
+    <h1>Golang Montréal</h1>
+
+    <p>Golang Montréal's mission is to promote the growth of a lively and dynamic community of Go enthusiasts in Montreal and its surroundings.</p>
+
+    <h4>Next event: <a href="{{ $nextEvent.Permalink }}" style="font-weight: bold;">{{ $nextEvent.Title }}</a> </h4>
+  </gomtl-hero>
+</section>
+
+<section hero>
+  <div class="container next-meetup layout horizontal">
+    <div class="align-right flex" style="padding-right: 10px">
+      Next meetup
+    </div>
+    <div class="flex" style="padding-left: 10px; color: #9094A8;">
+      {{ $nextEvent.Params.event.date }}
+    </div>
+  </div>
+</section>
+
+<google-map longitude="{{ $eventData.longitude }}"
+            latitude="{{ $eventData.latitude }}"
+            zoom="{{ $eventData.zoom }}"
+            language="{{ $lang }}" style="height: 450px;"
+            disable-zoom="true">
+  <google-map-marker longitude="{{ $eventData.longitude }}" latitude="{{ $eventData.latitude }}"
+                     title="{{ $eventData.venue }}" draggable="true">
+    <h5>{{ $eventData.venue }}</h5>
+    <p>{{ $eventData.address }}</p>
+
+  </google-map-marker>
+</google-map>
+
+<section hero>
+  <gomtl-latest-news>
+    {{ partial "content.html" . }}
+  </gomtl-latest-news>
+</section>
 
 {{ partial "footer.html" . }}

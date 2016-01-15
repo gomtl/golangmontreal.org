@@ -7,15 +7,19 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
   <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1, user-scalable=yes">
   <title>{{ .Title }}</title>
-  <script src="{{$baseurl}}/bower_components/webcomponentsjs/webcomponents-lite.js"></script>
+  <link rel="stylesheet" href="{{$baseurl}}/technology/technology.css">
   <link rel="import" href="{{$baseurl}}/technology/technology.html">
+  <script src="{{$baseurl}}/bower_components/webcomponentsjs/webcomponents-lite.js"></script>
   <link rel="import" href="{{$baseurl}}/bower_components/iron-icons/iron-icons.html">
   <link rel="import" href="{{$baseurl}}/bower_components/iron-flex-layout/classes/iron-flex-layout.html">
   <link rel="import" href="{{$baseurl}}/bower_components/paper-drawer-panel/paper-drawer-panel.html">
   <link rel="import" href="{{$baseurl}}/bower_components/paper-icon-button/paper-icon-button.html">
   <link rel="import" href="{{$baseurl}}/bower_components/paper-button/paper-button.html">
   <link rel="import" href="{{$baseurl}}/bower_components/paper-toolbar/paper-toolbar.html">
+  <link rel="import" href="{{$baseurl}}/bower_components/paper-header-panel/paper-header-panel.html">
   <link rel="import" href="{{$baseurl}}/bower_components/paper-scroll-header-panel/paper-scroll-header-panel.html">
+  <link rel="import" href="{{$baseurl}}/bower_components/google-map/google-map.html">
+  <link rel="import" href="{{$baseurl}}/bower_components/google-map/google-map-marker.html">
   <link rel="import" href="{{$baseurl}}/bower_components/paper-fab/paper-fab.html">
   <link rel="import" href="{{$baseurl}}/bower_components/paper-item/paper-item.html">
   <link rel="import" href="{{$baseurl}}/bower_components/paper-menu/paper-menu.html">
@@ -24,7 +28,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.0.0/styles/monokai-sublime.min.css">
   <style is="custom-style">
   .container {
-    padding: 40px 16px;
+    padding: 0px 16px;
     font-size: 18px
   }
   .topnav {
@@ -32,12 +36,22 @@
   }
   .topnav paper-toolbar {
   }
-
+  .next-meetup {
+    font-size: 48px;
+    font-weight: normal;
+    color: #C5C9DE;
+  }
+  .align-right {
+    text-align: right;
+  }
+  .align-center {
+    text-align: center;
+  }
 
   @media (min-width: 961px) {
     .container {
       margin:0 auto;
-      padding: 60px 16px;
+      padding: 0px 16px;
       max-width: 896px
     }
     .topnav paper-toolbar {
@@ -184,7 +198,7 @@
 </head>
 <body>
 
-  <paper-drawer-panel id="drawerPanel" force-narrow narrow>
+  <paper-drawer-panel id="drawerPanel" force-narrow>
     <paper-header-panel drawer>
       <paper-toolbar class="sidenav tall">
         <iron-image class="profile middle" sizing="contain" src="{{$baseurl}}/{{.Site.Params.profile}}"></iron-image>
@@ -205,12 +219,11 @@
         </paper-item></a>
 
         <a href="{{$baseurl}}/{{$lang}}/call-for-presentations"><paper-item>
-          <iron-icon></iron-icon>　<div class="flex">{{ i18n "Pitch" }}</div> <iron-icon icon="chevron-right"></iron-icon>
+          <iron-icon></iron-icon>　<div class="flex">{{ i18n "Present !" }}</div> <iron-icon icon="chevron-right"></iron-icon>
         </paper-item></a>
 
-
         <a href="{{$baseurl}}/{{$lang}}/sponsorship"><paper-item>
-          <iron-icon></iron-icon>　<div class="flex">{{ i18n "Sponsorship" }}</div> <iron-icon icon="chevron-right"></iron-icon>
+          <iron-icon></iron-icon>　<div class="flex">{{ i18n "Sponsor" }}</div> <iron-icon icon="chevron-right"></iron-icon>
         </paper-item></a>
 
         <a href="{{$baseurl}}/{{$lang}}/contact"><paper-item>
@@ -220,20 +233,28 @@
       </paper-menu>
     </paper-header-panel>
 
-    <paper-header-panel main>
+    <paper-scroll-header-panel main>
 
       <div class="topnav"><paper-toolbar>
 
         <paper-icon-button class="hamburger" icon="menu" paper-drawer-toggle></paper-icon-button>
 
         <div class="flex">
-          {{.Site.Title}}
+          <a href="{{$baseurl}}/{{$lang}}">{{.Site.Title}}</a>
         </div>
 
 
         <div class="menus">
 
-          <a href="/{{ $lang }}/about"><paper-button class="primary">About</paper-button></a>
+          <a href="{{$baseurl}}/{{ $lang }}/about"><paper-button>{{ i18n "about" }}</paper-button></a>
+
+          <a href="{{$baseurl}}/{{$lang}}/events"><paper-button>{{ i18n "Events" }}</paper-button></a>
+
+          <a href="{{$baseurl}}/{{$lang}}/call-for-presentations"><paper-button>{{ i18n "Present!" }}</paper-button></a>
+
+          <a href="{{$baseurl}}/{{$lang}}/sponsorship"><paper-button>{{ i18n "Sponsor" }}</paper-button></a>
+
+          <a href="{{$baseurl}}/{{$lang}}/contact"><paper-button>{{ i18n "Contact" }}</paper-button></a>
 
         {{if .Site.Multilingual}}
           {{if .IsPage}}
