@@ -78,3 +78,28 @@
   Polymer({is: 'gomtl-latest-news'});
   </script>
 </dom-module>
+
+
+<dom-module id="gomtl-footer">
+  <style>
+  :host {
+    display: block;
+  }
+  [horizontal] {
+    @apply(--layout-horizontal);
+  }
+  [vertical] {
+    @apply(--layout-vertical);
+  }
+  </style>
+
+  <template>
+    <iron-media-query query="(min-width: 960px)" query-matches="{{wide}}"></iron-media-query>
+    <div class="layout" horizontal$="{{wide}}" vertical$="{{!wide}}">
+      <content></content>
+    </div>
+  </template>
+  <script>
+  Polymer({is: 'gomtl-footer'});
+  </script>
+</dom-module>

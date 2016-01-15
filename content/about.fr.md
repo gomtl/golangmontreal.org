@@ -1,14 +1,19 @@
 ---
+quicklinks:
+ - about
 slug: a-propos
 date: 2016-01-13T02:21:00-05:00
 title: À propos
+menu:
+  main:
+    weight: 10
 
 ---
 
-# Mission
+### Mission
 
 Golang Montréal a pour mission de construire et fortifier une communauté vivante
-et dynamique enthousiastes pour Go à Montréal et ses environs.
+et dynamique d'utilisateurs enthousiastes de Go à Montréal.
 
 Golang Montréal vise à diffuser la connaissance du langage et à encourager
 l'utilisation.
@@ -18,7 +23,7 @@ projets Open Source et publie ses logiciels et productions sous des licenses
 libres.
 
 
-# Activités
+### Activités
 
 Nous tenons des rencontres régulières qui comprennent une série de présentations
 courtes suivies d'une présentation principale.
@@ -32,7 +37,7 @@ a pour tous les calibres et les expert comme les néophytes y trouvent leur
 compte.
 
 
-# Organisateurs
+### Organisateurs
 
 Les organisateurs sont présentement:
 
@@ -42,7 +47,7 @@ Les organisateurs sont présentement:
 * Jonathan Stoikovitch  https://twitter.com/jstoiko
 
 
-# Code de conduite
+### Code de conduite
 
 Golang Montréal adopte le
 [code de conduite de la communauté Go](https://golang.org/conduct).

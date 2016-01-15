@@ -11,6 +11,8 @@
   <link rel="import" href="{{$baseurl}}/technology/technology.html">
   <script src="{{$baseurl}}/bower_components/webcomponentsjs/webcomponents-lite.js"></script>
   <link rel="import" href="{{$baseurl}}/bower_components/iron-icons/iron-icons.html">
+  <link rel="import" href="{{$baseurl}}/bower_components/iron-media-query/iron-media-query.html">
+  <link rel="import" href="{{$baseurl}}/bower_components/iron-flex-layout/iron-flex-layout.html">
   <link rel="import" href="{{$baseurl}}/bower_components/iron-flex-layout/classes/iron-flex-layout.html">
   <link rel="import" href="{{$baseurl}}/bower_components/paper-drawer-panel/paper-drawer-panel.html">
   <link rel="import" href="{{$baseurl}}/bower_components/paper-icon-button/paper-icon-button.html">
@@ -27,6 +29,10 @@
   <link rel="import" href="{{$baseurl}}/gomtl-elements.html">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.0.0/styles/monokai-sublime.min.css">
   <style is="custom-style">
+  :root {
+    --quarter-color: #C5C9DE;
+    --half-color: #9094A8;
+  }
   .container {
     padding: 0px 16px;
     font-size: 18px
@@ -39,13 +45,27 @@
   .next-meetup {
     font-size: 48px;
     font-weight: normal;
-    color: #C5C9DE;
+    color: var(--quarter-color);
+  }
+  .next-meetup > div {
+    padding: 0 10px;
+  }
+  .next-meetup-pair {
+    color: var(--half-color);
   }
   .align-right {
     text-align: right;
   }
   .align-center {
     text-align: center;
+  }
+  .partners iron-image {
+    width: 140px;
+    height: 60px;
+    margin: 16px;
+  }
+  .partners h2 {
+    color: var(--half-color);
   }
 
   @media (min-width: 961px) {
@@ -206,29 +226,16 @@
       </paper-toolbar>
 
       <paper-menu>
+
         <a href="{{$baseurl}}/{{$lang}}"><paper-item>
           <iron-icon icon="home"></iron-icon>　<div class="flex">{{ i18n "home" }}</div> <iron-icon icon="chevron-right"></iron-icon>
         </paper-item></a>
 
-        <a href="{{$baseurl}}/{{$lang}}/about"><paper-item>
-          <iron-icon></iron-icon>　<div class="flex">{{ i18n "About" }}</div> <iron-icon icon="chevron-right"></iron-icon>
-        </paper-item></a>
-
-        <a href="{{$baseurl}}/{{$lang}}/events"><paper-item>
-          <iron-icon></iron-icon>　<div class="flex">{{ i18n "Events" }}</div> <iron-icon icon="chevron-right"></iron-icon>
-        </paper-item></a>
-
-        <a href="{{$baseurl}}/{{$lang}}/call-for-presentations"><paper-item>
-          <iron-icon></iron-icon>　<div class="flex">{{ i18n "Present !" }}</div> <iron-icon icon="chevron-right"></iron-icon>
-        </paper-item></a>
-
-        <a href="{{$baseurl}}/{{$lang}}/sponsorship"><paper-item>
-          <iron-icon></iron-icon>　<div class="flex">{{ i18n "Sponsor" }}</div> <iron-icon icon="chevron-right"></iron-icon>
-        </paper-item></a>
-
-        <a href="{{$baseurl}}/{{$lang}}/contact"><paper-item>
-          <iron-icon></iron-icon>　<div class="flex">{{ i18n "Contact" }}</div> <iron-icon icon="chevron-right"></iron-icon>
-        </paper-item></a>
+        {{ range .Site.Menus.main }}
+          <a href="{{ .URL }}"><paper-item>
+            <iron-icon icon="{{ .Pre }}"></iron-icon>　<div class="flex">{{ if .Post }}{{ .Post }}{{else}}{{ .Name }}{{end}}</div> <iron-icon icon="chevron-right"></iron-icon>
+          </paper-item></a>
+        {{end}}
 
       </paper-menu>
     </paper-header-panel>
@@ -246,15 +253,10 @@
 
         <div class="menus">
 
-          <a href="{{$baseurl}}/{{ $lang }}/about"><paper-button>{{ i18n "about" }}</paper-button></a>
+          {{ range .Site.Menus.main }}
+            <a href="{{ .URL }}"><paper-button>{{ if .Post }}{{ .Post }}{{else}}{{ .Name }}{{end}}</paper-button></a>
+          {{end}}
 
-          <a href="{{$baseurl}}/{{$lang}}/events"><paper-button>{{ i18n "Events" }}</paper-button></a>
-
-          <a href="{{$baseurl}}/{{$lang}}/call-for-presentations"><paper-button>{{ i18n "Present!" }}</paper-button></a>
-
-          <a href="{{$baseurl}}/{{$lang}}/sponsorship"><paper-button>{{ i18n "Sponsor" }}</paper-button></a>
-
-          <a href="{{$baseurl}}/{{$lang}}/contact"><paper-button>{{ i18n "Contact" }}</paper-button></a>
 
         {{if .Site.Multilingual}}
           {{if .IsPage}}

@@ -15,6 +15,10 @@ LinkLanguages:
  - en
  - fr
 
+menu:
+  - main
+  - footer
+
 params:
   author: "gomtl team"
   profile: "images/gomtl-logo-512.png"
@@ -44,6 +48,10 @@ DefaultContentLang: en
 LinkLanguages:
  - en
  - fr
+
+menu:
+  - main
+  - footer
 
 params:
   author: "gomtl team"

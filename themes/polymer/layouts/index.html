@@ -8,18 +8,18 @@
   <gomtl-hero class="container">
     <h1>Golang Montréal</h1>
 
-    <p>Golang Montréal's mission is to promote the growth of a lively and dynamic community of Go enthusiasts in Montreal and its surroundings.</p>
+    <p>{{ i18n "mission" }}</p>
 
-    <h4>Next event: <a href="{{ $nextEvent.Permalink }}" style="font-weight: bold;">{{ $nextEvent.Title }}</a> </h4>
+    <h4>{{ i18n "next_event" }}: <a href="{{ $nextEvent.Permalink }}" style="font-weight: bold;">{{ $nextEvent.Title }}</a> </h4>
   </gomtl-hero>
 </section>
 
 <section hero>
-  <div class="container next-meetup layout horizontal">
-    <div class="align-right flex" style="padding-right: 10px">
-      Next meetup
+  <div class="next-meetup layout horizontal">
+    <div class="align-right flex">
+      {{ i18n "next_meetup" }}
     </div>
-    <div class="flex" style="padding-left: 10px; color: #9094A8;">
+    <div class="flex next-meetup-pair">
       {{ $nextEvent.Params.event.date }}
     </div>
   </div>
@@ -42,6 +42,23 @@
   <gomtl-latest-news>
     {{ partial "content.html" . }}
   </gomtl-latest-news>
+</section>
+
+<section class="partners">
+  <div class="container align-center">
+    <h2>{{ i18n "partners" }} {{ i18n "and" }} {{ i18n "sponsors" }}</h2>
+
+    <iron-image src="/images/partners/google.svg" sizing="contain"></iron-image>
+    <iron-image src="/images/partners/intel-security.svg" sizing="contain"></iron-image>
+
+    <div>
+      {{ range .Site.Menus.main }}
+        {{ if eq .Weight 40 }}
+        <a href="{{ .URL }}"><paper-button raised class="primary">{{ i18n "become_a_sponsor" }}</paper-button></a>
+        {{ end }}
+      {{end}}
+    </div>
+  </div>
 </section>
 
 {{ partial "footer.html" . }}

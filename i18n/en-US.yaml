@@ -1,2 +1,31 @@
+- id: and
+  translation: "and"
+
 - id: home
   translation: "Home"
+- id: about
+  translation: "About"
+- id: events
+  translation: "Events"
+- id: present_bang
+  translation: "Present!"
+- id: sponsor_verb
+  translation: "Sponsor"
+- id: contact
+  translation: "Contact"
+- id: connect_verb
+  translation: "Connect"
+- id: contact_us
+  translation: "Contact Us"
+- id: partners
+  translation: "Partners"
+- id: sponsors
+  translation: "Sponsors"
+- id: become_a_sponsor
+  translation: "Become a sponsor"
+- id: next_event
+  translation: "Next event"
+- id: next_meetup
+  translation: "Next meetup"
+- id: mission
+  translation: "Golang Montréal's mission is to promote the growth of a lively and dynamic community of Go enthusiasts in Montreal and its surroundings."

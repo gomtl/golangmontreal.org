@@ -1,9 +1,32 @@
 {{ $baseurl := .Site.BaseURL }}
 {{ $lang := .Site.RenderLanguage }}
-    <section>
-      <paper-item>
+    <section hero>
+      <gomtl-footer class="container">
 
-        <div class="flex"></div>
+        <div class="flex">
+          <h5>Gophers</h5>
+          <ul>
+            {{ range .Site.Menus.main }}
+              {{ if ne .Weight 40 }}
+              <li><a href="{{ .URL }}">{{ if .Post }}{{ .Post }}{{else}}{{ .Name }}{{end}}</a>
+              {{ end}}
+            {{end}}
+          </ul>
+        </div>
+
+        <div class="flex">
+          <h5>{{ i18n "partners" }} / {{ i18n "sponsors" }}</h5>
+          <ul>
+            {{ range .Site.Menus.main }}
+              {{ if eq .Weight 40 }}
+                <li><a href="{{ .URL }}">{{ if .Post }}{{ .Post }}{{else}}{{ .Name }}{{end}}</a>
+              {{ end}}
+            {{end}}
+          </ul>
+        </div>
+
+        <div class="flex">
+          <h5>{{ i18n "connect_verb" }}</h5>
         {{with .Site.Params.facebook}}
           <a href="https://www.facebook.com/{{ . }}"><paper-icon-button src="{{$baseurl}}/images/facebook-dreamstale25.png"></paper-icon-button></a>
         {{end}}
@@ -20,14 +43,16 @@
           <a href="https://github.com/{{ . }}"><paper-icon-button src="{{$baseurl}}/images/github2-dreamstale35.png"></paper-icon-button></a>
         {{end}}
           <a href="{{$baseurl}}/{{$lang}}/index.xml"><paper-icon-button src="{{$baseurl}}/images/feed-dreamstale27.png"></paper-icon-button></a>
+        </div>
+      </gomtl-footer>
 
-      </paper-item>
+      <br />
 
-      <paper-item>
+      <div class="align-center">
         <div class="copyright">{{.Site.Copyright}}</div>
-        <div class="flex"></div>
-        <div class="design">Thanks to <a href="http://pdevty.github.io/blog/">pdevty</a> for the design</div>
-      </paper-item>
+        <br/>
+        <div class="design">Powered by <a href="http://gohugo.io">Hugo</a> &nbsp; &mdash; &nbsp; Original Polymer template by <a href="http://pdevty.github.io/blog/">pdevty</a> &nbsp; &mdash; &nbsp; #gomtl logo by <a href="http://screamingagency.com/">Kamel Gorieze</a>.</div>
+      </div>
 
     </section>
 
