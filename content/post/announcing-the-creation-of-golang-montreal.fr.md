@@ -21,6 +21,10 @@ ce langage pour la première fois.
 Notre premier meetup aura lieu aux bureaux de **Google Montreal** le **lundi, 22
 février 2016**.  Nous allons annoncer les présentations 1 à 2 semaines d'avance.
 
+NOTEZ que pour le 22 février, étant donné l'accès contrôlé aux locaux de Google,
+tous devront s'inscrire sur la page meetup.com au moins deux jours avant
+l'événement.
+
 Si vous êtes passionnés par Go, que vous connaissez des choses que d'autres
 ignorent, venez présenter!  Envoyez vos propositions de présentation (d'une
 durée de 5, 15 ou 30 minutes) à alex@bourget.cc.  Ceux qui présentent dans des
