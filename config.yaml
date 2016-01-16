@@ -28,7 +28,7 @@ params:
   googleAnalyticsUserID: "UA-72488186-1"
 
 permalinks:
-  post: "/:year/:month/:day/:filename/"
+  post: "/:year/:month/:day/:slug/"
 
 MetaDataFormat: "yaml"
 
@@ -63,7 +63,7 @@ params:
   googleAnalyticsUserID: "UA-72488186-1"
 
 permalinks:
-  post: "/:year/:month/:day/:filename/"
+  post: "/:year/:month/:day/:slug/"
 
 MetaDataFormat: "yaml"
 ---

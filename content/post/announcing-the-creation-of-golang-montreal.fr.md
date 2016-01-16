@@ -18,8 +18,8 @@ ce langage pour la première fois.
 
 <!--more-->
 
-Notre premier meetup aura lieu aux bureaux de *Google Montreal* le *lundi, 22
-février 2016*.  Nous allons annoncer les présentations 1 à 2 semaines d'avance.
+Notre premier meetup aura lieu aux bureaux de **Google Montreal** le **lundi, 22
+février 2016**.  Nous allons annoncer les présentations 1 à 2 semaines d'avance.
 
 Si vous êtes passionnés par Go, que vous connaissez des choses que d'autres
 ignorent, venez présenter!  Envoyez vos propositions de présentation (d'une

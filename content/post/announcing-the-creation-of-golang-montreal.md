@@ -17,8 +17,8 @@ time.
 
 <!--more-->
 
-Our first meetup will be held at *Google Montreal* on *Monday, February
-22nd 2016*. We will announce the talks 1-2 weeks before.
+Our first meetup will be held at **Google Montreal** on **Monday, February
+22nd 2016**. We will announce the talks 1-2 weeks before.
 
 If you are passionate about Go or you know something that we don't, come and
 share it with the community!  Send your proposal for talks (lasting 5, 15 or 30
