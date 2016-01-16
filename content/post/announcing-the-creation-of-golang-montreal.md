@@ -11,7 +11,7 @@ whose mission is promote the growth of a lively and dynamic community of Go
 enthusiasts in Montreal and its surroundings.
 
 Golang Montréal will be holding monthly meetups with presentations from the
-community, for the community. It is a great way to meet fellow gophers, learn
+community and for the community. It is a great way to meet fellow gophers, learn
 new tricks, find opportunities or discover this great language for the first
 time.
 

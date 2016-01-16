@@ -27,7 +27,7 @@ We have regular meetings consisting of several short presentations followed by a
 longer main presentation.
 
 Attendance is free and open to all. Our sponsors often allow us to have snacks
-and drinks to foster a climate where discussions are welcome and appreciated.
+and drinks to foster a climate where discussions are welcomed and appreciated.
 
 We will often present concepts in layman terms and as such our meetings will
 cater to people of all skill set levels: newcomers as well as experts.
