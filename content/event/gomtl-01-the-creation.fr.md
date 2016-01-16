@@ -1,4 +1,6 @@
 ---
+categories:
+ - news
 date: 2016-01-14T23:36:33-05:00
 event:
   date: "Lundi, 22 février 2016"
@@ -15,6 +17,6 @@ draft: true
 
 Nous sommes excités !
 
-<!-- more -->
+<!--more-->
 
 lire la suite

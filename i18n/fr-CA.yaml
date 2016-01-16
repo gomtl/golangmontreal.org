@@ -27,5 +27,9 @@
   translation: "Prochain événement"
 - id: next_meetup
   translation: "Prochain meetup"
+- id: latest_news
+  translation: "Actualités"
+- id: read_more
+  translation: "Lire la suite"
 - id: mission
   translation: "Golang Montréal a pour mission de construire et fortifier une communauté vivante et dynamique d'utilisateurs de Go à Montréal."

@@ -1,4 +1,6 @@
 ---
+categories:
+ - news
 date: 2016-01-14T23:36:33-05:00
 event:
   date: "Monday, February 22nd 2016"
@@ -15,6 +17,6 @@ draft: true
 
 We're thrilled to announce the first generation motor cars
 
-<!-- more -->
+<!--more-->
 
 see more here !

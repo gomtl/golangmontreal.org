@@ -1,27 +1,39 @@
 ---
+categories:
+ - news
 date: 2016-01-15T01:29:35-05:00
-title: Annonce de la création de Golang Montréal
+title: Création de Golang Montréal
 
 ---
 
-C'est avec grand enthousiasme que nous annonç
-We are thrilled to announce the creation of Golang Montréal, a Go user group
-whose mission is promote the growth of a lively and dynamic community of Go
-enthusiasts in Montreal and its surroundings.
+C'est avec grand enthousiasme que nous annonçons la création de Golang Montréal,
+un meetup pour les utilisateurs du langage Go qui a pour mission de construire
+et fortifier une communauté vivante et dynamique d'utilisateurs de Go à
+Montréal.
 
-Golang Montréal will be holding monthly meetups with presentations from the
-community, for the community. It is a great way to meet fellow gophers, learn
-new tricks, find opportunities or discover this great language for the first
-time.
+Golang Montréal organize un meetup par mois avec des présentations des membres
+de la communauté.  C'est une excellente occasion de rencontrer d'autres Gophers,
+apprendre de nouvelles choses, trouver des opportunités ou simplement découvrir
+ce langage pour la première fois.
 
-Our first meetup will be held at *Google Montreal* on *Monday, February
-22nd 2016*. We will announce the talks 1-2 weeks before.
+<!--more-->
 
-If you are passionate about Go or you know something that we don't, come and share it
-with the community!  Send your proposal for talks (lasting 5, 15 or 30 minutes)
-to team@golangmontreal.org
-[REVIEW: we could make this more snappy, we want to convince them to do it.. let’s give them a reason]
+Notre premier meetup aura lieu aux bureaux de *Google Montreal* le *lundi, 22
+février 2016*.  Nous allons annoncer les présentations 1 à 2 semaines d'avance.
 
-The organizing team also encourages anyone interested in leading this initiative with us, to contact us. Having a leadership position in such an initiative always brings tons of opportunities.
+Si vous êtes passionnés par Go, que vous connaissez des choses que d'autres
+ignorent, venez présenter!  Envoyez vos propositions de présentation (d'une
+durée de 5, 15 ou 30 minutes) à alex@bourget.cc.  Ceux qui présentent dans des
+meetups comme celui-ci ne manque jamais de noter l'importance influence que leur
+expérience a exercée dans leur carrière.
 
-In the meantime, stay connected !
+Nous encourageons fortement ceux qui voudraient prendre une charge dans cette
+initiative à se joindre à nous.  Une position de leader dans un meetup comme
+celui promet d'apporter son lot d'opportunités.
+
+En attendant, restez connectés:
+
+* https://twitter.com/GolangMontreal
+* http://www.meetup.com/fr-FR/GolangMontreal/
+* https://www.facebook.com/GolangMontreal
+* https://github.com/gomtl

@@ -1,0 +1,20 @@
+{{ $baseurl := .Site.BaseURL }}
+{{ $lang := .Site.RenderLanguage }}
+
+{{range $index, $page := .Site.Taxonomies.categories.news }}
+  {{ if le $index 1 }}
+  <div class="flex latest-news-article">
+
+    <h3><a href="{{ $page.Page.Permalink }}">{{ $page.Page.Title }}</a></h3>
+
+    <div class="description">{{ $page.Page.Summary }}</div>
+
+    {{ if $page.Page.Truncated }}
+    <div class="read-more-link">
+      <a href="{{ $page.Page.RelPermalink }}">{{ i18n "read_more" }}…</a>
+    </div>
+    {{ end }}
+
+  </div>
+  {{ end }}
+{{ end }}

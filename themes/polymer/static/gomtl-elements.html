@@ -69,10 +69,32 @@
   :host {
     display: block;
   }
+  ::content h3 {
+    color: var(--default-primary-color, inherit);
+  }
+  ::content .read-more-link {
+    text-align: right;
+    color: var(--default-primary-color, inherit);
+  }
+  ::content .latest-news-article {
+    padding: 0 30px;
+  }
+  [horizontal] {
+    @apply(--layout-horizontal);
+    @apply(--layout-wrap);
+  }
+  [vertical] {
+    @apply(--layout-vertical);
+  }
   </style>
 
   <template>
+    <iron-media-query query="(min-width: 960px)" query-matches="{{wide}}"></iron-media-query>
 
+    <content select="h2[title]"></content>
+    <div class="layout" horizontal$="{{wide}}" vertical$="{{!wide}}">
+      <content select="*"></content>
+    </div>
   </template>
   <script>
   Polymer({is: 'gomtl-latest-news'});

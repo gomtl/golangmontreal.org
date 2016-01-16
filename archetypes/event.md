@@ -14,6 +14,6 @@ draft: true
 
 We're thrilled to announce the first generation motor cars
 
-<!-- more -->
+<!--more-->
 
 see more here !

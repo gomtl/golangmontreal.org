@@ -7,9 +7,9 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
   <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1, user-scalable=yes">
   <title>{{ .Title }}</title>
+  <script src="{{$baseurl}}/bower_components/webcomponentsjs/webcomponents-lite.js"></script>
   <link rel="stylesheet" href="{{$baseurl}}/technology/technology.css">
   <link rel="import" href="{{$baseurl}}/technology/technology.html">
-  <script src="{{$baseurl}}/bower_components/webcomponentsjs/webcomponents-lite.js"></script>
   <link rel="import" href="{{$baseurl}}/bower_components/iron-icons/iron-icons.html">
   <link rel="import" href="{{$baseurl}}/bower_components/iron-media-query/iron-media-query.html">
   <link rel="import" href="{{$baseurl}}/bower_components/iron-flex-layout/iron-flex-layout.html">
@@ -52,6 +52,11 @@
   }
   .next-meetup-pair {
     color: var(--half-color);
+  }
+  gomtl-latest-news h2 {
+    color: var(--quarter-color);
+    text-align: center;
+    margin: 0 0 20px 0;
   }
   .align-right {
     text-align: right;
@@ -107,7 +112,7 @@
    paper-button {
        padding: 0.7em 1.7em;
    }
-   .read-more-link {
+   .read-more-button {
        text-align: center;
    }
    .photo{
@@ -257,6 +262,7 @@
             <a href="{{ .URL }}"><paper-button>{{ if .Post }}{{ .Post }}{{else}}{{ .Name }}{{end}}</paper-button></a>
           {{end}}
 
+        </div>
 
         {{if .Site.Multilingual}}
           {{if .IsPage}}
@@ -279,6 +285,6 @@
             {{end}}
           {{end}}
         {{end}}
-        </div>
+
 
       </paper-toolbar></div>

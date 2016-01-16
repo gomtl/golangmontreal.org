@@ -39,8 +39,10 @@
 </google-map>
 
 <section hero>
-  <gomtl-latest-news>
-    {{ partial "content.html" . }}
+  <gomtl-latest-news class="container">
+    <h2 title>{{ i18n "latest_news" }}</h2>
+
+    {{ partial "homepage-latest-news.html" . }}
   </gomtl-latest-news>
 </section>
 
