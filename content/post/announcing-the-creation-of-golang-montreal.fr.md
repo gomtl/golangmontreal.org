@@ -11,7 +11,7 @@ un meetup pour les utilisateurs du langage Go qui a pour mission de construire
 et fortifier une communauté vivante et dynamique d'utilisateurs de Go à
 Montréal.
 
-Golang Montréal organize un meetup par mois avec des présentations des membres
+Golang Montréal organise un meetup par mois avec des présentations des membres
 de la communauté.  C'est une excellente occasion de rencontrer d'autres Gophers,
 apprendre de nouvelles choses, trouver des opportunités ou simplement découvrir
 ce langage pour la première fois.
@@ -28,8 +28,8 @@ l'événement.
 Si vous êtes passionnés par Go, que vous connaissez des choses que d'autres
 ignorent, venez présenter!  Envoyez vos propositions de présentation (d'une
 durée de 5, 15 ou 30 minutes) à alex@bourget.cc.  Ceux qui présentent dans des
-meetups comme celui-ci ne manque jamais de noter l'importance influence que leur
-expérience a exercée dans leur carrière.
+meetups comme celui-ci ne manque pas de noter l'influence que l'expérience a eu
+sur leur carrière.
 
 Nous encourageons fortement ceux qui voudraient prendre une charge dans cette
 initiative à se joindre à nous.  Une position de leader dans un meetup comme
