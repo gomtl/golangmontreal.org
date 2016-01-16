@@ -24,6 +24,7 @@ params:
   profile: "images/gomtl-logo-512.png"
   twitter: "GolangMontreal"
   github: "gomtl"
+  meetup: "fr-FR/GolangMontreal"
   googleAnalyticsUserID: "UA-72488186-1"
 
 permalinks:
@@ -58,6 +59,7 @@ params:
   profile: "images/gomtl-logo-512.png"
   twitter: "GolangMontreal"
   github: "gomtl"
+  meetup: "fr-FR/GolangMontreal"
   googleAnalyticsUserID: "UA-72488186-1"
 
 permalinks:

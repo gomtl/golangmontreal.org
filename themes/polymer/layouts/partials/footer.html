@@ -33,6 +33,9 @@
         {{with .Site.Params.twitter}}
           <a href="https://twitter.com/{{ . }}"><paper-icon-button src="{{$baseurl}}/images/twitter-dreamstale71.png"></paper-icon-button></a>
         {{end}}
+        {{with .Site.Params.meetup}}
+          <a href="http://www.meetup.com/{{ . }}/"><paper-icon-button src="{{$baseurl}}/images/icon_meetup.png"></paper-icon-button></a>
+        {{end}}
         {{with .Site.Params.gplus}}
           <a href="https://google.com/+{{ . }}"><paper-icon-button src="{{$baseurl}}/images/google+-dreamstale37.png"></paper-icon-button></a>
         {{end}}
