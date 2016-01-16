@@ -5,7 +5,7 @@ date: 2016-01-14T23:36:33-05:00
 event:
   date: "Monday, February 22nd 2016"
   venue: Google Montreal
-  address: '...'
+  address: "1253 McGill College #150, Montréal, QC H3B 2Y5"
   latitude: 45.502052
   longitude: -73.572784
   zoom: 17
