@@ -35,3 +35,5 @@ In the meantime, stay connected !
 * http://www.meetup.com/fr-FR/GolangMontreal/
 * https://www.facebook.com/GolangMontreal
 * https://github.com/gomtl
+* https://www.linkedin.com/groups/8460965
+* https://www.youtube.com/channel/UCEse7ZihAhMMMFGesx8dJjg

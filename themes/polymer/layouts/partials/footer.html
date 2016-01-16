@@ -40,10 +40,13 @@
           <a href="https://google.com/+{{ . }}"><paper-icon-button src="{{$baseurl}}/images/google+-dreamstale37.png"></paper-icon-button></a>
         {{end}}
         {{with .Site.Params.linkedin}}
-          <a href="https://www.linkedin.com/in/{{ . }}"><paper-icon-button src="{{$baseurl}}/images/linkedin-dreamstale45.png"></paper-icon-button></a>
+          <a href="https://www.linkedin.com/groups/{{ . }}"><paper-icon-button src="{{$baseurl}}/images/linkedin-dreamstale45.png"></paper-icon-button></a>
         {{end}}
         {{with .Site.Params.github}}
           <a href="https://github.com/{{ . }}"><paper-icon-button src="{{$baseurl}}/images/github2-dreamstale35.png"></paper-icon-button></a>
+        {{end}}
+        {{with .Site.Params.youtube}}
+          <a href="https://www.youtube.com/{{ . }}"><paper-icon-button src="{{$baseurl}}/images/youtube.png"></paper-icon-button></a>
         {{end}}
           <a href="{{$baseurl}}/{{$lang}}/index.xml"><paper-icon-button src="{{$baseurl}}/images/feed-dreamstale27.png"></paper-icon-button></a>
         </div>

@@ -22,7 +22,9 @@ menu:
 params:
   author: "gomtl team"
   profile: "images/gomtl-logo-512.png"
+  linkedin: "8460965"
   twitter: "GolangMontreal"
+  youtube: "channel/UCEse7ZihAhMMMFGesx8dJjg"
   github: "gomtl"
   meetup: "fr-FR/GolangMontreal"
   googleAnalyticsUserID: "UA-72488186-1"
@@ -57,6 +59,8 @@ menu:
 params:
   author: "gomtl team"
   profile: "images/gomtl-logo-512.png"
+  linkedin: "8460965"
+  youtube: "channel/UCEse7ZihAhMMMFGesx8dJjg"
   twitter: "GolangMontreal"
   github: "gomtl"
   meetup: "fr-FR/GolangMontreal"

@@ -1,6 +1,6 @@
 ---
 categories:
- - news
+ - SKIPnews
 date: 2016-01-14T23:36:33-05:00
 event:
   date: "Lundi, 22 février 2016"
@@ -11,7 +11,6 @@ event:
   zoom: 17
 title: "#gomtl 01 - 22 fév. - La Création"
 slug: gomtl-01-22-fev-la-creation
-draft: true
 
 ---
 
