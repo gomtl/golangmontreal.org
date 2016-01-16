@@ -48,10 +48,14 @@
 
 <section class="partners">
   <div class="container align-center">
-    <h2>{{ i18n "partners" }} {{ i18n "and" }} {{ i18n "sponsors" }}</h2>
+
+    <h4>{{ i18n "sponsors" }}</h4>
+
+    <iron-image src="/images/partners/intel-security.svg" sizing="contain"></iron-image>
+
+    <h4>{{ i18n "partners" }}</h4>
 
     <iron-image src="/images/partners/google.svg" sizing="contain"></iron-image>
-    <iron-image src="/images/partners/intel-security.svg" sizing="contain"></iron-image>
 
     <div>
       {{ range .Site.Menus.main }}
