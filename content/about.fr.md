@@ -13,7 +13,7 @@ menu:
 ### Mission
 
 Golang Montréal a pour mission de construire et fortifier une communauté vivante
-et dynamique d'utilisateurs enthousiastes de Go à Montréal.
+et dynamique d'utilisateurs de Go à Montréal.
 
 Golang Montréal vise à diffuser la connaissance du langage et à encourager
 l'utilisation.
