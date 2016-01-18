@@ -8,4 +8,4 @@ menu:
     weight: 40
 ---
 
-Le plan de commandites sera bientôt prêt.
+See the [English page](/en/sponsorship) for details.
