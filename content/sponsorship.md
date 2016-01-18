@@ -17,22 +17,18 @@ Our goal is to build a strong local community by putting together programmers,
 project leaders, artists and service providers.
 
 Our main events are the _Golang Montréal meetups_, some mini-conferences that
-occur each 4 to 6 weeks.  Conferences happen during the week, on evenings, and
-last about 2 hours.  They feature talks from 5 to 45 minutes that cover a broad
-ranges of subjects, and address different expertise levels to keep everyone
-interested.
+occur every 4 to 6 weeks.  They take place during week-day evenings, and usually
+last about 2 hours.  Featured, are, 5 to 45 minutes talks that cover a broad
+range of subjects and cater to people of all skill set levels: newcomers as well as experts.
 
 ### Attendees
 
-We attract Go enthusiasts, from beginners to advanced.  We expect around 30-50
-attendees at each meetups.  The startup community is well represented as Go is
-considered more and more when building new companies.  Several company CTOs are
-also known to come around.
+We attract Go enthusiasts, beginners & specialists alike.  We expect to have 30-50
+attendees at our meetups.  The startup community is considering Go, more and more, when building new companies.  Several established company CTOs are also known to have come around.
 
 ### Why sponsor
 
-We have a strong commitment to the exposure of our sponsors. Sponsorships helps
-us to keep the events free of charge which is a key point of our success.
+Sponsorships help us keep the events free of charge, essential for our success.
 
 By sponsoring Golang Montréal, you will:
 
@@ -44,7 +40,7 @@ By sponsoring Golang Montréal, you will:
 * Gain visibility for both recruiting and promotion of your product and
   services: banners, quick introduction, etc.;
 
-* Increase your profile in this very smart community of leaders in their fields.
+* Increase your profile in this very smart community of field leaders.
 
 
 ### Plans
@@ -88,7 +84,7 @@ By sponsoring Golang Montréal, you will:
 
 ### Custom plans
 
-We're eager to work with you on ideas for "less conventional" sponsorships. We
+We're eager to work with you on ideas for unique and unconvential sponsorships. We
 are always happy to work with innovators and local leaders.
 
 If you have a service or a product that you can provide for the event, we'll
