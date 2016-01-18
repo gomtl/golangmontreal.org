@@ -23,7 +23,7 @@ range of subjects and cater to people of all skill set levels: newcomers as well
 
 ### Attendees
 
-We attract Go enthusiasts, beginners & specialists alike.  We expect to have 30-50
+We attract Go enthusiasts, beginners & specialists, alike.  We expect to have 30-50
 attendees at our meetups.  The startup community is considering Go, more and more, when building new companies.  Several established company CTOs are also known to have come around.
 
 ### Why sponsor
