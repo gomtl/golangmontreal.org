@@ -8,4 +8,4 @@ menu:
 
 ---
 
-[Insérer section pour nous joindre]
+Vous pouvez nous joindre <a href="mailto:alex@bourget.cc">ici</a>!

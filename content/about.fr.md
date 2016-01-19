@@ -41,7 +41,7 @@ compte.
 
 Les organisateurs sont présentement:
 
-* Peter Eljiz		    https://twitter.com/peterjiz
+* Peter El Jiz		        https://twitter.com/peterjiz
 * Igor Baiborodine      https://twitter.com/IgorBaiborodine
 * Alexandre Bourget     https://twitter.com/bourgetalexndre
 * Jonathan Stoikovitch  https://twitter.com/jstoiko

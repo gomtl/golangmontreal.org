@@ -37,7 +37,7 @@ cater to people of all skill set levels: newcomers as well as experts.
 
 Current organizers are:
 
-* Peter Eljiz		    https://twitter.com/peterjiz
+* Peter El Jiz		      https://twitter.com/peterjiz
 * Igor Baiborodine      https://twitter.com/IgorBaiborodine
 * Alexandre Bourget     https://twitter.com/bourgetalexndre
 * Jonathan Stoikovitch  https://twitter.com/jstoiko
