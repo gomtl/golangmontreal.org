@@ -12,16 +12,16 @@ menu:
 
 ---
 
-Know anything worth sharing ? By all means,  do it !
+Know anything worth sharing ? By all means, let us know !
 
-The community will be grateful for the learning and your career, grateful for
-the opportunities this will bring.
+The community will thank you for the wisdom, and your career for the
+opportunities this will bring to you.
 
-* If you already did presentations in the past, send us an outline of what you'd
-  like, we'll find a spot in the meetups that make sense.
+* If you've done a few presentations in the past, send us an outline of what you'd
+  like to talk about and we'll find a spot in the meetups that make sense.
 
-* If you're new to presenting, start the conversation by sending us ideas, we
-  can help out find an angle that will make the community and yourself happy.
+* Even if you're new to presenting, we still want to hear from you. Send us your
+  ideas and, together, we'll find an angle that will make everyone happy.
 
 <div class="align-center">
     <a href="mailto:alex@bourget.cc"><paper-button class="primary" raised>Contact us, now!</paper-button></a>
