@@ -8,4 +8,7 @@ menu:
 
 ---
 
-Vous pouvez nous joindre <a href="mailto:alex@bourget.cc">ici</a>!
+Vous pouvez nous joindre par courriel à l'adresse <a href="mailto:team@golangmontreal.org">team@golangmontreal.org</a>.
+
+Vous pouvez aussi nous joindre via les média sociaux, affichés dans le bas de
+cette page.

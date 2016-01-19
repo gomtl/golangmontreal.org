@@ -22,5 +22,5 @@ reconnaissante pour les opportunités que cela promet d'apporter.
   vous-même.
 
 <div class="align-center">
-    <a href="mailto:alex@bourget.cc"><paper-button class="primary" raised>Contactez-nous, maintenant!</paper-button></a>
+    <a href="mailto:team@golangmontreal.org"><paper-button class="primary" raised>Contactez-nous, maintenant!</paper-button></a>
 </div>

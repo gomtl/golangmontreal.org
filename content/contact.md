@@ -8,4 +8,7 @@ menu:
 
 ---
 
-We can be reached <a href="mailto:alex@bourget.cc">here</a>!
+You can reach us by e-mail at the address <a href="mailto:team@golangmontreal.org">team@golangmontreal.org</a>.
+
+You can also connect with us via social networks and other sites, listed in the
+footer of this page.

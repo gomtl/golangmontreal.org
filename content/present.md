@@ -24,5 +24,5 @@ opportunities this will bring to you.
   ideas and, together, we'll find an angle that will make everyone happy.
 
 <div class="align-center">
-    <a href="mailto:alex@bourget.cc"><paper-button class="primary" raised>Contact us, now!</paper-button></a>
+    <a href="mailto:team@golangmontreal.org"><paper-button class="primary" raised>Contact us, now!</paper-button></a>
 </div>
