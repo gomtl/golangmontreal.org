@@ -8,4 +8,4 @@ menu:
 
 ---
 
-We can be reached <a href="mailto:alex@bourget.cc"><paper-button class="primary" raised>here</paper-button></a>!
+We can be reached <a href="mailto:alex@bourget.cc">here</a>!
