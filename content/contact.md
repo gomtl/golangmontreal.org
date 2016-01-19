@@ -8,4 +8,4 @@ menu:
 
 ---
 
-[Insert How to contact us here.]
+We can be reached <a href="mailto:alex@bourget.cc"><paper-button class="primary" raised>here</paper-button></a>!
