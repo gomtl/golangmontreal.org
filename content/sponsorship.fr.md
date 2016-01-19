@@ -8,4 +8,4 @@ menu:
     weight: 40
 ---
 
-See the [English page](/en/sponsorship) for details.
+Voir la [page de commandites en anglais](/en/sponsorship) pour les détails.

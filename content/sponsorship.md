@@ -64,7 +64,13 @@ By sponsoring Golang Montréal, you will:
     <td class="align-center">x</td>
 </tr>
 <tr>
-    <td>Banner on https://golangmontreal.org</td>
+    <td>Logo and link on https://golangmontreal.org</td>
+    <td class="align-center">x</td>
+    <td class="align-center">x</td>
+    <td class="align-center">x</td>
+</tr>
+<tr>
+    <td>Logo and link on http://www.meetup.com/fr-FR/GolangMontreal/</td>
     <td class="align-center">x</td>
     <td class="align-center">x</td>
     <td class="align-center">x</td>
