@@ -8,6 +8,18 @@ menu:
 
 ---
 
+### What is Go
+
+[Go](https://golang.org) is an open-source language built by Google. It was
+design with simplicity in mind. It is a compiled language, with static typing,
+garbage collection, great tooling, excellent concurrency primitives and a robust
+standard library. It compiles blazingly fast, and cross-compiles to all major
+platforms with one command. With Go, you get roughly the speed of C/C++ with the
+development proficiency of Python (minus the GIL).
+
+See also [Go by example](https://gobyexample.com/) and the
+[Go book](https://www.golang-book.com/).
+
 ### Mission
 
 Golang Montréal's mission is to promote the growth of a lively and dynamic
@@ -37,7 +49,7 @@ cater to people of all skill set levels: newcomers as well as experts.
 
 Current organizers are:
 
-* Peter El Jiz		      https://twitter.com/peterjiz
+* Peter El Jiz		    https://twitter.com/peterjiz
 * Igor Baiborodine      https://twitter.com/IgorBaiborodine
 * Alexandre Bourget     https://twitter.com/bourgetalexndre
 * Jonathan Stoikovitch  https://twitter.com/jstoiko

@@ -10,6 +10,20 @@ menu:
 
 ---
 
+### What is Go
+
+[Go](https://golang.org) est un langage de programmation open-source développé
+par Google. Il a été conçu d'abord et avant tout pour être simple.  C'est un
+langage compilé, fortement typé, gestion automatique de la mémoire,
+d'excellentes primitives de concurrence et une robuste librairie standard.  Go
+compile ultra rapidement et compile pour toutes les plateformes en une commande.
+Avec Go, on obtient les performances de C/C++ avec l'aisance de développement de
+Python (à l'exception du GIL :P).
+
+Voir aussi [Go by example](https://gobyexample.com/) et le
+[Go book](https://www.golang-book.com/) (en anglais).
+
+
 ### Mission
 
 Golang Montréal a pour mission de construire et fortifier une communauté vivante
