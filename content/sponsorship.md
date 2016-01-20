@@ -30,9 +30,9 @@ seems Go have taken some ground there.
 
 ### Why sponsor
 
-Golang Montréal is strongly committed to providing value and exposure to our
-sponsors. Sponsorships also help us to keep the events free of charge: a key
-point of our success.
+Golang Montréal is strongly committed to providing value and exposure for our
+sponsors. Sponsorships help us keep the events free of charge: a key
+point in our success.
 
 By sponsoring Golang Montréal, you will:
 
