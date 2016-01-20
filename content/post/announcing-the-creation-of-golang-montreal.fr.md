@@ -23,7 +23,7 @@ février 2016**.  Nous allons annoncer les présentations 1 à 2 semaines d'avan
 
 NOTEZ que pour le 22 février, étant donné l'accès contrôlé aux locaux de Google,
 tous devront
-[s'inscrire sur la page meetup.com](http://www.meetup.com/fr-FR/GolangMontreal/events/228221625/)
+[s'inscrire sur la page meetup.com](http://www.meetup.com/fr-FR/GolangMontreal/events/228221625/) (**gratuitement**)
 au moins 24 heures avant l'événement.
 
 Si vous êtes passionnés par Go, que vous connaissez des choses que d'autres
