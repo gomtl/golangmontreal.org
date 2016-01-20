@@ -27,14 +27,14 @@
 
         <div class="flex">
           <h5>{{ i18n "connect_verb" }}</h5>
-        {{with .Site.Params.facebook}}
-          <a href="https://www.facebook.com/{{ . }}"><paper-icon-button src="{{$baseurl}}/images/facebook-dreamstale25.png"></paper-icon-button></a>
+        {{with .Site.Params.meetup}}
+          <a href="http://www.meetup.com/{{ . }}/"><paper-icon-button src="{{$baseurl}}/images/icon_meetup.png"></paper-icon-button></a>
         {{end}}
         {{with .Site.Params.twitter}}
           <a href="https://twitter.com/{{ . }}"><paper-icon-button src="{{$baseurl}}/images/twitter-dreamstale71.png"></paper-icon-button></a>
         {{end}}
-        {{with .Site.Params.meetup}}
-          <a href="http://www.meetup.com/{{ . }}/"><paper-icon-button src="{{$baseurl}}/images/icon_meetup.png"></paper-icon-button></a>
+        {{with .Site.Params.facebook}}
+          <a href="https://www.facebook.com/{{ . }}"><paper-icon-button src="{{$baseurl}}/images/facebook-dreamstale25.png"></paper-icon-button></a>
         {{end}}
         {{with .Site.Params.gplus}}
           <a href="https://google.com/+{{ . }}"><paper-icon-button src="{{$baseurl}}/images/google+-dreamstale37.png"></paper-icon-button></a>
@@ -42,12 +42,16 @@
         {{with .Site.Params.linkedin}}
           <a href="https://www.linkedin.com/groups/{{ . }}"><paper-icon-button src="{{$baseurl}}/images/linkedin-dreamstale45.png"></paper-icon-button></a>
         {{end}}
+        {{with .Site.Params.slack}}
+          <a href="{{ . }}" title="#gomtl {{ i18n "on" }} gophers.slack.com" ><paper-icon-button src="{{$baseurl}}/images/icon-slack.png"></paper-icon-button></a>
+        {{end}}
         {{with .Site.Params.github}}
           <a href="https://github.com/{{ . }}"><paper-icon-button src="{{$baseurl}}/images/github2-dreamstale35.png"></paper-icon-button></a>
         {{end}}
         {{with .Site.Params.youtube}}
-          <a href="https://www.youtube.com/{{ . }}"><paper-icon-button src="{{$baseurl}}/images/youtube.png"></paper-icon-button></a>
+          <!-- >a href="https://www.youtube.com/{{ . }}"><paper-icon-button src="{{$baseurl}}/images/youtube.png"></paper-icon-button></a -->
         {{end}}
+
           <a href="{{$baseurl}}/{{$lang}}/index.xml"><paper-icon-button src="{{$baseurl}}/images/feed-dreamstale27.png"></paper-icon-button></a>
         </div>
       </gomtl-footer>

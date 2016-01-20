@@ -1,0 +1,6 @@
+intel-security:
+  image: intel-security.svg
+  name: Intel Security
+google:
+  image: google.svg
+  name: Google

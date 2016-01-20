@@ -1,2 +1,4 @@
 - id: home
   translation: "Accueil"
+- id: "on"
+  translation: "sur"

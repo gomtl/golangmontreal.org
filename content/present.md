@@ -1,10 +1,11 @@
 ---
 date: 2016-01-15T01:32:34-05:00
-title: Call for presentations
-slug: call-for-presentations
+title: Get involved, give a talk !
+slug: present
 aliases:
- - /en/present
  - /en/call-for-papers
+ - /en/call-for-speakers
+ - /en/call-for-presentations
 menu:
   main:
     post: Present!

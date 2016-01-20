@@ -1,0 +1,9 @@
+{{ with (index .Page.Params (.Get 0)) }}
+  <div class="align-center partners">
+    {{ range . }}
+      {{ with .url }}<a href="{{ . }}">{{ end }}
+      <iron-image src="/images/partners/{{ .image }}" sizing="contain" title="{{ .name }}"></iron-image>
+      {{ with .url }}</a>{{ end }}
+    {{ end }}
+  </div>
+{{ end }}
