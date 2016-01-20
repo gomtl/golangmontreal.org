@@ -8,6 +8,7 @@ event:
   address: "1253 McGill College #150, Montréal, QC H3B 2Y5"
   latitude: 45.502052
   longitude: -73.572784
+  map_link: https://goo.gl/maps/s2zfrqRqMv32
   zoom: 17
 sponsors:
   - image: intel-security.svg
@@ -38,7 +39,7 @@ href="mailto:team@golangmontreal.org">team@golangmontreal.org</a>.
 We are thrilled to announce that the first of a great series of Go meetups will be held at the **Google Montreal** offices (_1253 McGill College #150, Montréal, QC H3B 2Y5_, https://goo.gl/maps/s2zfrqRqMv32)
 
 PLEASE NOTE: because of access controls in place at the Google offices, everyone
-will need to register on the Meetup.com page at least two days before Feb 22nd.
+will need to register on the Meetup.com page at least two days before the event.
 
 
 ### When
@@ -49,9 +50,9 @@ Join us on **Monday, February 22nd**, at 6:00pm for an amazing night of Go.
 ### Schedule
 
 * **6:00pm** -- Doors open
-* **6:30pm** -- First presentations
+* **6:30pm** -- First round of presentations
 * **7:30pm** -- Break / Networking
-* **7:50pm** -- Last presentations
+* **7:50pm** -- Second ronud of presentations
 * **8:30pm** -- End
 
 ### Sponsors and partners
