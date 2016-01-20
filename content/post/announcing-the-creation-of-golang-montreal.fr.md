@@ -7,8 +7,8 @@ title: Création de Golang Montréal
 ---
 
 C'est avec grand enthousiasme que nous annonçons la création de Golang Montréal,
-un meetup pour les utilisateurs du langage Go, qui a pour mission de construire
-et fortifier une communauté vivante et dynamique d'utilisateurs de Go à
+un meetup pour les utilisateurs du langage Go, qui a pour mission de promouvoir
+la croissance d'une communauté vivante et dynamique d'utilisateurs de Go à
 Montréal.
 
 Golang Montréal organise un meetup par mois avec des présentations des membres
