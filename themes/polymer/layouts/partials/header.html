@@ -6,7 +6,7 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
   <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1, user-scalable=yes">
-  <title>{{ .Title }}</title>
+  <title>{{ .Title }} - {{.Site.Title}}</title>
   <script src="{{$baseurl}}/bower_components/webcomponentsjs/webcomponents-lite.js"></script>
   <link rel="stylesheet" href="{{$baseurl}}/technology/technology.css">
   <link rel="import" href="{{$baseurl}}/technology/technology.html">
@@ -229,6 +229,13 @@
        border-radius: 5px;
        background: #fafafd;
    }
+  .main-title iron-image {
+    width: 64px;
+    height: 64px;
+    vertical-align: middle;
+    margin-left: -10px;
+    marign-right: 5px;
+  }
   </style>
 
 </head>
@@ -262,8 +269,8 @@
 
         <paper-icon-button class="hamburger" icon="menu" paper-drawer-toggle></paper-icon-button>
 
-        <div class="flex">
-          <a href="{{$baseurl}}/{{$lang}}">{{.Site.Title}}</a>
+        <div class="flex main-title">
+          <a href="{{$baseurl}}/{{$lang}}"><iron-image src="/images/gomtl-logo-128.png" sizing="contain"></iron-image> {{.Site.Title}}</a>
         </div>
 
 
