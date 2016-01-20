@@ -40,8 +40,9 @@ href="mailto:team@golangmontreal.org">team@golangmontreal.org</a>.
 Notre premier meetup aura lieu aux bureaux de **Google Montreal**  (_1253 McGill College #150, Montréal, QC H3B 2Y5_, https://goo.gl/maps/s2zfrqRqMv32).
 
 NOTEZ que pour le 22 février, étant donné l'accès contrôlé aux locaux de Google,
-tous devront s'inscrire sur la page meetup.com au moins deux jours avant
-l'événement.
+tous devront
+[s'inscrire sur la page meetup.com](http://www.meetup.com/fr-FR/GolangMontreal/events/228221625/) (**gratuitement**)
+au moins 24 heures avant l'événement.
 
 
 ### Quand

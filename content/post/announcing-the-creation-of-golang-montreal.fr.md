@@ -22,8 +22,9 @@ Notre premier meetup aura lieu aux bureaux de **Google Montreal** le **lundi, 22
 février 2016**.  Nous allons annoncer les présentations 1 à 2 semaines d'avance.
 
 NOTEZ que pour le 22 février, étant donné l'accès contrôlé aux locaux de Google,
-tous devront s'inscrire sur la page meetup.com au moins deux jours avant
-l'événement.
+tous devront
+[s'inscrire sur la page meetup.com](http://www.meetup.com/fr-FR/GolangMontreal/events/228221625/)
+au moins 24 heures avant l'événement.
 
 Si vous êtes passionnés par Go, que vous connaissez des choses que d'autres
 ignorent, venez présenter!  Envoyez vos propositions de présentation (d'une

@@ -39,7 +39,7 @@ href="mailto:team@golangmontreal.org">team@golangmontreal.org</a>.
 We are thrilled to announce that the first of a great series of Go meetups will be held at the **Google Montreal** offices (_1253 McGill College #150, Montréal, QC H3B 2Y5_, https://goo.gl/maps/s2zfrqRqMv32)
 
 PLEASE NOTE: because of access controls in place at the Google offices, everyone
-will need to register on the Meetup.com page at least two days before the event.
+will need to [register on the Meetup.com page](http://www.meetup.com/fr-FR/GolangMontreal/events/228221625/) (it's **free**) at least 24 hours before the event.
 
 
 ### When
