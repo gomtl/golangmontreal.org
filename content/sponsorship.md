@@ -98,7 +98,7 @@ We're eager to work with you on ideas for unique and unconventional
 sponsorships. We are always happy to work with innovators and local leaders.
 
 If you have a service or a product that you can provide for the event, we'll
-evaluate you contribution and you will by entitled to the full privileges of the
-corresponding sponsorship level. Interesting contributions could include gift
-certificates for your products, refreshments, technical books, consulting time,
-or audio-video equipment rental.
+evaluate your contribution and you will by entitled to the full privileges of
+the corresponding sponsorship level. Interesting contributions could include
+gift certificates for your products, refreshments, technical books, consulting
+time, or audio-video equipment rental.
