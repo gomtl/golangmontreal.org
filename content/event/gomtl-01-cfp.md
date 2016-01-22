@@ -52,7 +52,7 @@ Join us on **Monday, February 22nd**, at 6:00pm for an amazing night of Go.
 * **6:00pm** -- Doors open
 * **6:30pm** -- First round of presentations
 * **7:30pm** -- Break / Networking
-* **7:50pm** -- Second ronud of presentations
+* **7:50pm** -- Second round of presentations
 * **8:30pm** -- End
 
 ### Sponsors and partners
