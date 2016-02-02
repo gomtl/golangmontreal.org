@@ -17,8 +17,7 @@ We have
 to work with our Javascript application (we use Go for Selenium
 testing, JS for unit and other tests). We're looking for
 [iOS and Android](https://intel.taleo.net/careersection/10000/jobdetail.ftl?job=787302)
-testers also.  Some Android tests use Go, and most of our tooling is
-in Go.  We need a
+testers also.  Some Android tests use Go and a bunch of other tooling is in Go.  We need a
 [performance engineer](https://intel.taleo.net/careersection/10000/jobdetail.ftl?job=785859)
 too. Great opportunities, great tooling and great development await you.
 
