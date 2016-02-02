@@ -5,7 +5,7 @@ date: 2016-02-02T16:57:08-05:00
 title: Dive into Go - Intel sponsor post
 ---
 
-What to write some Go ? Want to improve your testing abilities ?
+Want to write some Go ? Want to improve your testing abilities ?
 
 Join the team at Intel Security, in the old PasswordBox office!
 
