@@ -1,6 +1,11 @@
 - id: and
   translation: "and"
 
+- id: language_switcher_en
+  translation: "English"
+- id: language_switcher_fr
+  translation: "Français"
+
 - id: home
   translation: "Home"
 - id: about

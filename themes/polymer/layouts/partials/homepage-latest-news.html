@@ -1,8 +1,9 @@
 {{ $baseurl := .Site.BaseURL }}
-{{ $lang := .Site.RenderLanguage }}
+{{ $site := .Site }}
+{{ $lang := .Site.CurrentLanguage }}
 
 {{range $index, $page := .Site.Taxonomies.categories.news }}
-  {{ if le $index 1 }}
+  {{ if le $index ( sub ( $site.GetParam "homepage_news" ) 1 ) }}
   <div class="flex latest-news-article">
 
     <h3><a href="{{ $page.Page.Permalink }}">{{ $page.Page.Title }}</a></h3>

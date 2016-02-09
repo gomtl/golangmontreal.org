@@ -11,12 +11,8 @@ event:
   map_link: https://goo.gl/maps/s2zfrqRqMv32
   zoom: 17
 sponsors:
-  - image: intel-security.svg
-    name: Intel Security
-    url: https://www.truekey.com
-partners:
-  - image: google.svg
-    name: Google
+  - intel-security
+  - google
 title: "#gomtl-01 - 22 fév. - Appel à présenter"
 slug: gomtl-01-22-fev-appel-a-presenter
 
@@ -65,6 +61,4 @@ Cet événement ne pourrait voir le jour sans les contributions de nos **command
 
 {{% partners sponsors %}}
 
-Nous voulons aussi remercier chaleureusement nos **partenaires** pour ce meetup:
-
-{{% partners partners %}}
+<!--Nous voulons aussi remercier chaleureusement nos **partenaires** pour ce meetup:-->

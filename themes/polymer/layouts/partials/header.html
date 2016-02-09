@@ -1,5 +1,5 @@
 {{ $baseurl := .Site.BaseURL }}
-{{ $lang := .Site.RenderLanguage }}
+{{ $lang := .Site.CurrentLanguage }}
 <!doctype html>
 <html lang="{{.Site.LanguageCode}}">
 <head>
@@ -73,7 +73,6 @@
     color: var(--half-color);
     padding: 15px 0;
   }
-
   @media (min-width: 961px) {
     .container {
       margin:0 auto;
@@ -89,6 +88,9 @@
     }
   }
   @media (max-width: 960px) {
+    .title-logo {
+      display: none;
+    }
     .menus {
       display: none;
     }
@@ -270,7 +272,7 @@
         <paper-icon-button class="hamburger" icon="menu" paper-drawer-toggle></paper-icon-button>
 
         <div class="flex main-title">
-          <a href="{{$baseurl}}/{{$lang}}"><iron-image src="/images/gomtl-logo-128.png" sizing="contain"></iron-image> {{.Site.Title}}</a>
+          <a href="{{$baseurl}}/{{$lang}}"><iron-image class="title-logo" src="/images/gomtl-logo-128.png" sizing="contain"></iron-image></a>&nbsp;<a href="{{$baseurl}}/{{$lang}}">{{.Site.Title}}</a>
         </div>
 
 
@@ -284,25 +286,24 @@
 
         {{if .Site.Multilingual}}
           {{if .IsPage}}
-            {{ range $txLang := .Site.LinkLanguages }}
+            {{ range $txLang := .Site.Languages }}
               {{if ne $lang $txLang}}
                 {{if isset $.Translations $txLang}}
-                  <a href="{{ (index $.Translations $txLang).Permalink }}">{{ index $.Site.Data.i18n "langlinks" $txLang }}</a>
+                  <a href="{{ (index $.Translations $txLang).Permalink }}">{{ i18n ( sprintf "language_switcher_%s" $txLang ) }}</a>
                 {{else}}
-                  <a href="/{{$txLang}}">{{ index $.Site.Data.i18n "langlinks" $txLang }}</a>
+                  <a href="/{{$txLang}}">{{ i18n ( sprintf "language_switcher_%s" $txLang ) }}</a>
                 {{end}}
               {{end}}
             {{end}}
           {{end}}
 
           {{if .IsNode}}
-            {{ range $txLang := .Site.LinkLanguages }}
+            {{ range $txLang := .Site.Languages }}
               {{if ne $lang $txLang}}
-                <a href="/{{$txLang}}">{{ index $.Site.Data.i18n "langlinks" $txLang }}</a>
+                <a href="/{{$txLang}}">{{ i18n ( sprintf "language_switcher_%s" $txLang ) }}</a>
               {{end}}
             {{end}}
           {{end}}
         {{end}}
-
 
       </paper-toolbar></div>

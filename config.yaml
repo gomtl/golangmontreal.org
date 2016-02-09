@@ -2,24 +2,36 @@
 theme: "polymer"
 
 baseurl: "https://golangmontreal.org"
-languageCode: "en-CA"
-title: "Golang Montréal - #gomtl"
 
 paginate: 10
-copyright: "(ɔ) 2015 Copyleft. The #gomtl team."
 
-Multilingual: true
-RenderLanguage: en
+MetaDataFormat: "yaml"
 DefaultContentLang: en
-LinkLanguages:
- - en
- - fr
 
 menu:
   - main
   - footer
 
+Multilingual:
+  en:
+    weight: 1
+
+    title: "Golang Montréal - #gomtl"
+    languageCode: "en-CA"
+
+    copyright: "(ɔ) 2015 Copyleft. The #gomtl team."
+
+  fr:
+    weight: 2
+
+    title: "Golang Montréal - #gomtl"
+    languageCode: "fr-CA"
+
+    copyright: "(ɔ) 2015 L'équipe #gomtl. Tous droits renversés."
+
 params:
+# Number of articles in the "Latest news" section on the front page.
+  homepage_news: 3
   author: "gomtl team"
   profile: "images/gomtl-logo-512.png"
   linkedin: "8460965"
@@ -33,45 +45,3 @@ params:
 
 permalinks:
   post: "/:year/:month/:day/:slug/"
-
-MetaDataFormat: "yaml"
-
----
-
-theme: "polymer"
-
-baseurl: "https://golangmontreal.org"
-languageCode: "fr-CA"
-title: "Golang Montréal - #gomtl"
-
-paginate: 10
-copyright: "(ɔ) 2015 L'équipe #gomtl. Tous droits renversés."
-
-Multilingual: true
-RenderLanguage: fr
-DefaultContentLang: en
-LinkLanguages:
- - en
- - fr
-
-menu:
-  - main
-  - footer
-
-params:
-  author: "gomtl team"
-  profile: "images/gomtl-logo-512.png"
-  linkedin: "8460965"
-  youtube: "channel/UCEse7ZihAhMMMFGesx8dJjg"
-  twitter: "GolangMontreal"
-  github: "gomtl"
-  facebook: "GolangMontreal"
-  slack: "https://bit.ly/go-slack-signup"
-  meetup: "fr-FR/GolangMontreal"
-  googleAnalyticsUserID: "UA-72488186-1"
-
-permalinks:
-  post: "/:year/:month/:day/:slug/"
-
-MetaDataFormat: "yaml"
----

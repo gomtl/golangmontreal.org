@@ -1,5 +1,5 @@
 {{ partial "header.html" . }}
-{{ $lang := .Site.RenderLanguage }}
+{{ $lang := .Site.CurrentLanguage }}
 
 {{ $nextEvent := (index .Site.Sections.event 0).Page }}
 {{ $eventData := $nextEvent.Params.event }}
