@@ -2,6 +2,7 @@
 categories:
  - news
 date: 2016-01-14T23:36:33-05:00
+meetupEvent: 228221625
 event:
   date: "Monday, Feb 22nd, 2016"
   venue: "Google Montreal"

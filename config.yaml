@@ -30,7 +30,7 @@ Multilingual:
     copyright: "(ɔ) 2015 L'équipe #gomtl. Tous droits renversés."
 
 params:
-# Number of articles in the "Latest news" section on the front page.
+  # Number of articles in the "Latest news" section on the front page.
   homepage_news: 3
   author: "gomtl team"
   profile: "images/gomtl-logo-512.png"
@@ -42,6 +42,8 @@ params:
   meetup: "fr-FR/GolangMontreal"
   slack: "https://bit.ly/go-slack-signup"
   googleAnalyticsUserID: "UA-72488186-1"
+  # See http://www.meetup.com/fr-FR/meetup_api/buttons/
+  meetupButtonBaseURL: http://www.meetup.com/GolangMontreal
 
 permalinks:
   post: "/:year/:month/:day/:slug/"

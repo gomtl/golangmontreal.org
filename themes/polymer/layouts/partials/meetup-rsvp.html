@@ -1,0 +1,5 @@
+{{ if .Params.meetupevent }}
+  <div class="meetup_button" style="float: right; margin-top: 26px;">
+    <a href="{{ .Site.Params.meetupButtonBaseURL }}/events/{{.Params.meetupevent}}/" data-event="{{.Params.meetupEvent}}" class="mu-rsvp-btn">RSVP</a>
+  </div>
+{{ end }}
