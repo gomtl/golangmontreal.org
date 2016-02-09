@@ -11,8 +11,8 @@ event:
   map_link: https://goo.gl/maps/s2zfrqRqMv32
   zoom: 17
 sponsors:
-  - intel-security
   - google
+  - intel-security
 title: "#gomtl-01 - 22 fév. - Appel à présenter"
 slug: gomtl-01-22-fev-appel-a-presenter
 

@@ -1,12 +1,11 @@
-{{ $data := .Page.Site.Data }}
+{{ $site := .Page.Site }}
 
 {{ with (index .Page.Params (.Get 0)) }}
-  <div class="align-center partners">
+  <div class="align-center sponsors">
     {{ range . }}
-      {{ $partner := index $data.partners . }}
-      {{ with $partner.url }}<a href="{{ . }}">{{ end }}
-      <iron-image src="/images/partners/{{ $partner.image }}" sizing="contain" title="{{ $partner.name }}"></iron-image>
-      {{ with $partner.url }}</a>{{ end }}
+
+      {{ partial "sponsor.html" ( dict "sponsor" . "site" $site ) }}
+
     {{ end }}
   </div>
 {{ end }}

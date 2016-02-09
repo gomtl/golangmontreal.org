@@ -1,0 +1,6 @@
+{{ $data := .site.Data }}
+{{ $sponsor := index $data.sponsors .sponsor }}
+
+{{ with $sponsor.url }}<a href="{{ . }}">{{ end }}
+  <iron-image src="/images/sponsors/{{ $sponsor.image }}" sizing="contain" title="{{ $sponsor.name }}"></iron-image>
+{{ with $sponsor.url }}</a>{{ end }}

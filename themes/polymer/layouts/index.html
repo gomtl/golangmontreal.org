@@ -46,16 +46,15 @@
   </gomtl-latest-news>
 </section>
 
-<section class="partners">
+<section class="sponsors">
   <div class="container align-center">
 
     <h4>{{ i18n "sponsors" }}</h4>
 
-    <iron-image src="/images/partners/intel-security.svg" sizing="contain"></iron-image>
+    {{ partial "sponsor.html" (dict "sponsor" "google" "site" .Site ) }}
+    {{ partial "sponsor.html" (dict "sponsor" "intel-security" "site" .Site ) }}
 
-    <h4>{{ i18n "partners" }}</h4>
-
-    <iron-image src="/images/partners/google.svg" sizing="contain"></iron-image>
+    <!-- h4>{{ i18n "partners" }}</h4-->
 
     <div>
       {{ range .Site.Menus.main }}
