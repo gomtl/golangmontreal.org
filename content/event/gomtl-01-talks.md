@@ -1,0 +1,111 @@
+---
+categories:
+ - news
+date: 2016-01-14T23:36:33-05:00
+meetupEvent: 228221625
+event:
+  date: "Monday, Feb 22nd, 2016"
+  venue: "Google Montreal"
+  address: "1253 McGill College #150, Montréal, QC H3B 2Y5"
+  latitude: 45.502052
+  longitude: -73.572784
+  map_link: https://goo.gl/maps/s2zfrqRqMv32
+  zoom: 17
+
+sponsors:
+  - google
+  - intel-security
+
+talks:
+  - title: WebSockets in Go
+    presenter:
+      name: M Raza Khan
+      tagline: Geek, Concept Artist, Entrepreneur
+      twitter: razakhaan
+    abstract: |
+      We will be looking into websockets, how to create them and
+      connect from client for transmission of the data, we'll write a
+      server and implement sockets inside it and echo the request.
+
+  - title: "Spelunking in the standard library: A net/http adventure!"
+    presenter:
+      name: Olivier Tremblay
+      tagline: Backend Go Dev
+      twitter: otremblaydev
+    abstract: |
+      An exploration of the net/http package, the things it
+      does for you, and the interfaces it exposes, and an overview of some
+      packages that work well with it.
+
+  - title: Overview of the bridges to other languages and platforms
+    presenter:
+      name: Alexandre Bourget
+      tagline: Data Scientist at Intel
+      twitter: bourgetalexndre
+    abstract: |
+      It's a polyglot world out there! I will me demonstrating Go bridges
+      to Javascript (otto, GopherJS), Python (gopy), Ruby (ruby-ffi),
+      Android (GoMobile) and Go's native cross-compilation
+      features. Everything in this session will be live coded from
+      scratch.
+
+  - title: My Go Journey
+    presenter:
+      name: Steve Venzerul
+      twitter: ckm2k1
+      tagline: "Software Engineer at Intel / JS-Montreal organizer"
+    abstract: |
+      Impressions on Go from a hard-boiled Javascript programmer.
+      The good, the bad, and the lack of generics.
+
+
+
+title: "#gomtl-01 - Our very first meetup - Feb 22nd"
+slug: gomtl-01-our-very-first-meetup-feb-22nd
+draft: true
+
+---
+
+It is with great excitement that we announce the talks for our very first meetup.
+
+You can still submit your talks for our next events at <a
+href="mailto:team@golangmontreal.org">team@golangmontreal.org</a>.
+
+Here is the program for the event:
+
+<!--more-->
+
+{{% talks %}}
+
+There will be some good food at the event.  Arrive early to be safe !
+
+
+### Where
+
+**Google Montreal** offices (_1253 McGill College #150, Montréal, QC H3B 2Y5_, https://goo.gl/maps/s2zfrqRqMv32)
+
+PLEASE NOTE: because of access controls in place at the Google offices, everyone
+will need to [register on the Meetup.com page](http://www.meetup.com/fr-FR/GolangMontreal/events/228221625/) (it's **free**) at least 24 hours before the event.
+
+
+### When
+
+**Monday, February 22nd**, at 6:00pm.
+
+
+### Schedule
+
+* **6:00pm** -- Doors open
+* **6:30pm** -- First round of presentations
+* **7:30pm** -- Break / Networking
+* **7:50pm** -- Second round of presentations
+* **8:30pm** -- End
+
+
+### Sponsors and partners
+
+This event wouldn't be possible without the great contributions from our **sponsors**:
+
+{{% partners sponsors %}}
+
+<!--We would also like to warmly thank our **partners** for this meetup:-->
