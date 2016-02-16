@@ -46,4 +46,4 @@ params:
   meetupButtonBaseURL: http://www.meetup.com/GolangMontreal
 
 permalinks:
-  post: "/:year/:month/:day/:slug/"
+  posts: "/:year/:month/:day/:slug/"

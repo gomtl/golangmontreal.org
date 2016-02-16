@@ -16,6 +16,8 @@ sponsors:
   - intel-security
 title: "#gomtl-01 - 22 fév. - Appel à présenter"
 slug: gomtl-01-22-fev-appel-a-presenter
+aliases:
+ - /fr/event/gomtl-01-22-fev-appel-a-presenter
 
 ---
 
@@ -56,7 +58,8 @@ une soirée toute en Go.
 * **19h50** -- Deuxième ronde de présentations
 * **20h30** -- Fin
 
-### Commenditaires et partenaires
+
+### Commanditaires
 
 Cet événement ne pourrait voir le jour sans les contributions de nos **commanditaires**:
 

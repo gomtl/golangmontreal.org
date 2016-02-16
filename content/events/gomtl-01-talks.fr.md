@@ -1,7 +1,7 @@
 ---
 categories:
  - news
-date: 2016-01-14T23:36:33-05:00
+date: 2016-02-15T18:12:00-05:00
 meetupEvent: 228221625
 event:
   date: "Monday, Feb 22nd, 2016"
@@ -58,54 +58,56 @@ talks:
       Impressions on Go from a hard-boiled Javascript programmer.
       The good, the bad, and the lack of generics.
 
-
-
-title: "#gomtl-01 - Our very first meetup - Feb 22nd"
-slug: gomtl-01-our-very-first-meetup-feb-22nd
-draft: true
+title: "#gomtl-01 - Lancement de Go 1.6 - 22 fév."
+slug: gomtl-01-lancement-de-go-16-22-fev
 
 ---
 
-It is with great excitement that we announce the talks for our very first meetup.
+C'est avec grand enthousiasme que nous vons annonçons les présentations pour notre tout premier meetup.
 
-You can still submit your talks for our next events at <a
+Ce meetup coïncidera avec la sortie de Go 1.6 (enfin, on espère!), alors venez
+fêter avec nous la toute dernière mouture de Go !
+
+Vous pouvez toujours soumettre vos propositions pour les prochains meetups à <a
 href="mailto:team@golangmontreal.org">team@golangmontreal.org</a>.
 
-Here is the program for the event:
+Voici le programme du 22 février (assurez-vous de [*RSVP*](http://www.meetup.com/fr-FR/GolangMontreal/events/228221625/) !):
 
 <!--more-->
 
 {{% talks %}}
 
-There will be some good food at the event.  Arrive early to be safe !
+Les présentations sont pour la plupart en anglais cette fois-ci, mais nous
+espérons avoir des présentations en français lors des prochains événements.
+
+Il y aura de la bouffe sur place. Assurez-vous d'arriver tôt !
 
 
-### Where
+### Où
 
-**Google Montreal** offices (_1253 McGill College #150, Montréal, QC H3B 2Y5_, https://goo.gl/maps/s2zfrqRqMv32)
+Aux bureaux de **Google Montreal** (_1253 McGill College #150, Montréal, QC H3B 2Y5_, https://goo.gl/maps/s2zfrqRqMv32)
 
-PLEASE NOTE: because of access controls in place at the Google offices, everyone
-will need to [register on the Meetup.com page](http://www.meetup.com/fr-FR/GolangMontreal/events/228221625/) (it's **free**) at least 24 hours before the event.
+NOTEZ que pour le 22 février, étant donné l'accès contrôlé aux locaux de Google,
+tous devront [**s'inscrire gratuitement**](http://www.meetup.com/fr-FR/GolangMontreal/events/228221625/)
+au moins 24 heures avant l'événement.
 
 
-### When
+### Quand
 
-**Monday, February 22nd**, at 6:00pm.
+Le **lundi, le 22 février 2016**, à compter de **18h00**
 
 
 ### Schedule
 
-* **6:00pm** -- Doors open
-* **6:30pm** -- First round of presentations
-* **7:30pm** -- Break / Networking
-* **7:50pm** -- Second round of presentations
-* **8:30pm** -- End
+* **18h00** -- Ouverture des portes
+* **18h30** -- Première ronde deprésentations
+* **19h30** -- Pause / Réseautage
+* **19h50** -- Deuxième ronde de présentations
+* **20h30** -- Fin
 
 
-### Sponsors and partners
+### Commanditaires
 
-This event wouldn't be possible without the great contributions from our **sponsors**:
+Cet événement ne pourrait voir le jour sans les contributions de nos **commanditaires**:
 
 {{% partners sponsors %}}
-
-<!--We would also like to warmly thank our **partners** for this meetup:-->

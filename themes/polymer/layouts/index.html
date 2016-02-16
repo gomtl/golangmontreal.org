@@ -1,7 +1,7 @@
 {{ partial "header.html" . }}
 {{ $lang := .Site.CurrentLanguage }}
 
-{{ $nextEvent := (index .Site.Sections.event 0).Page }}
+{{ $nextEvent := (index .Site.Sections.events 0).Page }}
 {{ $eventData := $nextEvent.Params.event }}
 
 <section>

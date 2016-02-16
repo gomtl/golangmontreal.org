@@ -16,6 +16,8 @@ sponsors:
   - intel-security
 title: "#gomtl-01 - Feb. 22nd - Call for Speakers"
 slug: gomtl-01-feb-22nd-call-for-speakers
+aliases:
+ - /en/event/gomtl-01-feb-22nd-call-for-speakers
 
 ---
 
