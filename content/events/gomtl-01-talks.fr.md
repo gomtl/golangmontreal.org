@@ -27,6 +27,17 @@ talks:
       connect from client for transmission of the data, we'll write a
       server and implement sockets inside it and echo the request.
 
+  - title: "Quick & Scalable Development - Micro-Services Monolithically?"
+    presenter:
+      name: Peter El-Jiz
+      tagline: Backend & iOS Developer / Golang Montreal Team
+      twitter: peterjiz
+    abstract: |
+      How to design and rapidly develop a backend that could be made to scale.
+      More specifically by using Go interfaces, you could develop your app monolithically
+      as a bunch of services. Because each service is an interface, you could easily swap
+      out your service with a network-based implementation, and separate into smaller micro-services.
+
   - title: "Spelunking in the standard library: A net/http adventure!"
     presenter:
       name: Olivier Tremblay
