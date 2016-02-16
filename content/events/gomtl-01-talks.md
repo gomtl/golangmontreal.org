@@ -88,7 +88,7 @@ Here is the program for the event (make sure you [*RSVP*](http://www.meetup.com/
 
 {{% talks %}}
 
-There will be delicious food at the event offered on a first-come first-served basis. Come by early to be safe!
+There will be delicious food at the event, offered on a first-come first-served basis. Come by early to be safe!
 
 
 ### Where
