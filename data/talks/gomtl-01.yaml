@@ -21,6 +21,10 @@ talks:
     presenter:
       name: Will Stevens
       tagline: "Lead Developer @ CloudOps"
+      twitter: swillops
+      github: swill
+      linkedin: https://ca.linkedin.com/in/swill
+      website: http://swill.io
     abstract: |
       Logging is a great way to know what is going on in your
       application, but logs do not make the data easily accessible.
