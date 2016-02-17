@@ -1,6 +1,5 @@
-{{ $site := .Page.Site }}
-
-{{ with .Page.Params.talks }}
+{{ $data := index .Page.Site.Data.talks (.Get 0) }}
+{{ with $data.talks }}
   {{ range . }}
     <div class="talks" style="padding-left: 10px; margin-left: 10px; border-left: 5px solid #373b50; margin-bottom: 15px; padding-top: 10px; padding-bottom: 10px;">
       <div>

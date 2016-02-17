@@ -16,59 +16,6 @@ sponsors:
   - google
   - intel-security
 
-talks:
-  - title: WebSockets in Go
-    presenter:
-      name: M Raza Khan
-      tagline: Geek, Concept Artist, Entrepreneur
-      twitter: razakhaan
-    abstract: |
-      We will be looking into websockets, how to create them and
-      connect from client for transmission of the data, we'll write a
-      server and implement sockets inside it and echo the request.
-
-  - title: "Quick & Scalable Development - Micro-Services Monolithically?"
-    presenter:
-      name: Peter El-Jiz
-      tagline: Backend & iOS Developer / Golang Montreal Team
-      twitter: peterjiz
-    abstract: |
-      How to design and rapidly develop a backend that could be made to scale.
-      More specifically by using Go interfaces, you could develop your app monolithically
-      as a bunch of services. Because each service is an interface, you could easily swap
-      out your service with a network-based implementation, and separate into smaller micro-services.
-
-  - title: "Spelunking in the standard library: A net/http adventure!"
-    presenter:
-      name: Olivier Tremblay
-      tagline: Backend Go Dev
-      twitter: otremblaydev
-    abstract: |
-      An exploration of the net/http package, the things it
-      does for you, and the interfaces it exposes, and an overview of some
-      packages that work well with it.
-
-  - title: Overview of the bridges to other languages and platforms
-    presenter:
-      name: Alexandre Bourget
-      tagline: Data Scientist at Intel
-      twitter: bourgetalexndre
-    abstract: |
-      It's a polyglot world out there! We'll demonstrate Go bridges
-      to Javascript (otto, GopherJS), Python (gopy), Ruby (ruby-ffi),
-      Android (GoMobile) and Go's native cross-compilation
-      features. Everything in this session will be live coded from
-      scratch.
-
-  - title: My Go Journey
-    presenter:
-      name: Steve Venzerul
-      twitter: ckm2k1
-      tagline: "Software Engineer at Intel / JS-Montreal organizer"
-    abstract: |
-      Impressions on Go from a hard-boiled Javascript programmer.
-      The good, the bad, and the lack of generics.
-
 title: "#gomtl-01 - Go 1.6 Release Party - Feb 22nd"
 slug: gomtl-01-go-16-release-party-feb-22nd
 
@@ -86,7 +33,7 @@ Here is the program for the event (make sure you [*RSVP*](http://www.meetup.com/
 
 <!--more-->
 
-{{% talks %}}
+{{% talks gomtl-01 %}}
 
 There will be some food at the event, offered on a first-come first-served basis. Come by early to be safe!
 
@@ -108,9 +55,9 @@ will need to [register on the Meetup.com page](http://www.meetup.com/fr-FR/Golan
 
 * **6:00pm** -- Doors open
 * **6:30pm** -- First round of presentations
-* **7:30pm** -- Break / Networking
+* **7:35pm** -- Break / Networking
 * **7:50pm** -- Second round of presentations
-* **8:30pm** -- End
+* **8:50pm** -- End
 
 
 ### Sponsors and partners

@@ -1,0 +1,71 @@
+talks:
+  - title: WebSockets in Go
+    presenter:
+      name: M Raza Khan
+      tagline: Geek, Concept Artist, Entrepreneur
+      twitter: razakhaan
+    abstract: |
+      We will be looking into websockets, how to create them and
+      connect from client for transmission of the data, we'll write a
+      server and implement sockets inside it and echo the request.
+
+  - title: "Distributed Bug Tracking in the 21st Century"
+    presenter:
+      name: Dave MacFarlane
+      tagline: "Sr Software Dev. @ McGill Centre For Integrative Neuroscience"
+    abstract: |
+      We will explore the idea of a distributed bug tracking system, and take
+      a look at an implementation, by Dave MacFarlane himself.
+
+  - title: "slackd : Real-time log based alerting"
+    presenter:
+      name: Will Stevens
+      tagline: "Lead Developer @ CloudOps"
+    abstract: |
+      Logging is a great way to know what is going on in your
+      application, but logs do not make the data easily accessible.
+      How often am I getting a specific error?  What is the context ?
+      slackd focuses on anomalies and areas of the code which the
+      developer flags as interesting.
+
+  - title: "Quick & Scalable Development - Micro-Services Monolithically?"
+    presenter:
+      name: Peter El-Jiz
+      tagline: Backend & iOS Developer / Golang Montreal Team
+      twitter: peterjiz
+    abstract: |
+      How to design and rapidly develop a backend that could be made to scale.
+      More specifically by using Go interfaces, you could develop your app monolithically
+      as a bunch of services. Because each service is an interface, you could easily swap
+      out your service with a network-based implementation, and separate into smaller micro-services.
+
+  - title: "Spelunking in the standard library: A net/http adventure!"
+    presenter:
+      name: Olivier Tremblay
+      tagline: Backend Go Dev
+      twitter: otremblaydev
+    abstract: |
+      An exploration of the net/http package, the things it
+      does for you, and the interfaces it exposes, and an overview of some
+      packages that work well with it.
+
+  - title: Overview of the bridges to other languages and platforms
+    presenter:
+      name: Alexandre Bourget
+      tagline: Data Scientist at Intel
+      twitter: bourgetalexndre
+    abstract: |
+      It's a polyglot world out there! We'll demonstrate Go bridges
+      to Javascript (otto, GopherJS), Python (gopy), Ruby (ruby-ffi),
+      Android (GoMobile) and Go's native cross-compilation
+      features. Everything in this session will be live coded from
+      scratch.
+
+  - title: My Go Journey
+    presenter:
+      name: Steve Venzerul
+      twitter: ckm2k1
+      tagline: "Software Engineer at Intel / JS-Montreal organizer"
+    abstract: |
+      Impressions on Go from a hard-boiled Javascript programmer.
+      The good, the bad, and the lack of generics.
