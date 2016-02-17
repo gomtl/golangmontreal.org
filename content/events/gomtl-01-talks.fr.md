@@ -54,7 +54,7 @@ talks:
       tagline: Data Scientist at Intel
       twitter: bourgetalexndre
     abstract: |
-      It's a polyglot world out there! I will me demonstrating Go bridges
+      It's a polyglot world out there! We'll demonstrate Go bridges
       to Javascript (otto, GopherJS), Python (gopy), Ruby (ruby-ffi),
       Android (GoMobile) and Go's native cross-compilation
       features. Everything in this session will be live coded from
