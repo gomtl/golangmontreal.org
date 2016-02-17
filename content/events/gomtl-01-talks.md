@@ -74,9 +74,9 @@ slug: gomtl-01-go-16-release-party-feb-22nd
 
 ---
 
-It is with great excitement that we announce the talks for our very first meetup.
+We are excited to announce the talks for our very first meetup.
 
-It should coincide with the release of Go 1.6 (we hope!), so come and feast with
+We will also be celebrating the Go 1.6 release, so come and feast with
 us and discuss all things Go !
 
 You can still submit your talks for our next events at <a
@@ -88,7 +88,7 @@ Here is the program for the event (make sure you [*RSVP*](http://www.meetup.com/
 
 {{% talks %}}
 
-There will be some good food at the event.  Arrive early to be safe !
+There will be some food at the event, offered on a first-come first-served basis. Come by early to be safe!
 
 
 ### Where
