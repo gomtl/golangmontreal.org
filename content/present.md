@@ -13,7 +13,7 @@ menu:
 
 ---
 
-Know anything worth sharing ? By all means, let us know !
+Know anything worth sharing ?
 
 The community will thank you for the wisdom, and your career for the
 opportunities this will bring to you.

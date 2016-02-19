@@ -1,0 +1,9 @@
+talks:
+  - title: My Go Journey
+    presenter:
+      name: Steve Venzerul
+      twitter: ckm2k1
+      tagline: "Software Engineer at Intel / JS-Montreal organizer"
+    abstract: |
+      Impressions on Go from a hard-boiled Javascript programmer.
+      The good, the bad, and the lack of generics.

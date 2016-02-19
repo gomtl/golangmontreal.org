@@ -9,7 +9,7 @@ menu:
 
 ---
 
-Vous connaissez quelque chose qui vaille la peine d'être partagé ?  Alors allez y!
+Vous connaissez quelque chose qui vaille la peine d'être partagé ?
 
 La communauté sera reconnaissante pour les apprentissages et votre carrière,
 reconnaissante pour les opportunités que cela promet d'apporter.
