@@ -1,13 +1,12 @@
 talks:
-  - title: Overview of the bridges to other languages and platforms
+  - title: Go bridges to Javascript and Python
     presenter:
       name: Alexandre Bourget
       tagline: Data Scientist at Intel
       twitter: bourgetalexndre
     abstract: |
-      We'll demonstrate Go bridges to Javascript (otto, GopherJS), Python
-      (gopy), Ruby (ruby-ffi), Android (GoMobile) and Go's native
-      cross-compilation features. Everything in this session will be live coded
+      We'll demonstrate Go bridges to Javascript (otto, GopherJS) and Python
+      (gopy). Everything in this session will be live coded
       from scratch.
 
   - title: "slackd : Real-time log based alerting"
