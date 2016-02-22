@@ -8,6 +8,7 @@ event:
   date: "Mardi, 29 mars 2016"
   venue: "Shopify Montréal"
   address: "490 Rue de La Gauchetière Ouest, Montréal, H2Z 0B3"
+  # TODO: FIX lat long !!!
   latitude: 45.5024597
   longitude: -73.5661919
   map_link: https://goo.gl/maps/B4ekxN81as72
