@@ -2,15 +2,13 @@
 categories:
  - news
 date: 2016-02-22T23:36:33-05:00
-draft: true
-#meetupEvent: 228221625
+meetupEvent: 229087612
 event:
   date: "Mardi, 29 mars 2016"
   venue: "Shopify Montréal"
   address: "490 Rue de La Gauchetière Ouest, Montréal, H2Z 0B3"
-  # TODO: FIX lat long !!!
-  latitude: 45.5024597
-  longitude: -73.5661919
+  latitude: 45.502454
+  longitude: -73.563986
   map_link: https://goo.gl/maps/B4ekxN81as72
   zoom: 17
 sponsors:
@@ -26,7 +24,8 @@ meetup, après une superbe première édition.
 C'est une opportunité pour vous de venir partager les choses intéressantes que
 vous avez développé ou appris devant la communauté.
 
-Nous recherchons des présentations d'une durée de 5, 15 ou 30 minutes.
+Nous recherchons des présentations éclair de 5 minutes, ou des plus longues
+d'environ 30 minutes.
 
 Envoyez-nous vos propositions à <a
 href="mailto:team@golangmontreal.org">team@golangmontreal.org</a>.

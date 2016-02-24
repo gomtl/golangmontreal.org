@@ -2,14 +2,13 @@
 categories:
  - news
 date: 2016-02-22T23:36:33-05:00
-draft: true
-#meetupEvent: 228221625
+meetupEvent: 229087612
 event:
   date: "Tuesday, March 29th, 2016"
   venue: "Shopify Montreal"
   address: "490 Rue de La Gauchetière Ouest, Montréal, H2Z 0B3"
-  latitude: 45.5024597
-  longitude: -73.5661919
+  latitude: 45.502454
+  longitude: -73.563986
   map_link: https://goo.gl/maps/B4ekxN81as72
   zoom: 17
 sponsors:
@@ -25,7 +24,7 @@ after a great start!
 It is your opportunity to come and present the nice things you have built or
 learned with the community.
 
-We are looking for talks lasting 5, 15 or 30 minutes.
+We are looking for lightning talks of 5 minutes, and longer talks of 30 minutes.
 
 Submit your talks to <a
 href="mailto:team@golangmontreal.org">team@golangmontreal.org</a>.
