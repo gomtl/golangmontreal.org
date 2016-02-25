@@ -4,3 +4,5 @@
   translation: "on"
 - id: "by"
   translation: "by"
+- id: "watch_video"
+  translation: "Watch the video"

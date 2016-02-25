@@ -22,7 +22,9 @@
     </div>
   </div>
 
-<paper-item>
+  <!-- {{ partial "video-recording.html" . }} -->
+
+  <paper-item>
     {{if .Prev}}
     <a href="{{.Prev.Permalink}}"><paper-fab icon="chevron-left"></paper-fab></a>
     {{else}}
@@ -34,8 +36,9 @@
     {{else}}
     <paper-fab disabled icon="chevron-right"></paper-fab>
     {{end}}
-</paper-item>
+  </paper-item>
 
 </div>
+
 
 {{ partial "footer.html" . }}

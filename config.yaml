@@ -16,7 +16,7 @@ Multilingual:
   en:
     weight: 1
 
-    title: "Golang Montréal - #gomtl"
+    title: "Golang Montréal"
     languageCode: "en-CA"
 
     copyright: "(ɔ) 2015 Copyleft. The #gomtl team."
@@ -24,7 +24,7 @@ Multilingual:
   fr:
     weight: 2
 
-    title: "Golang Montréal - #gomtl"
+    title: "Golang Montréal"
     languageCode: "fr-CA"
 
     copyright: "(ɔ) 2015 L'équipe #gomtl. Tous droits renversés."

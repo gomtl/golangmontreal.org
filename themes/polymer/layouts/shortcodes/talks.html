@@ -1,8 +1,9 @@
-{{ $data := index .Page.Site.Data.talks (.Get 0) }}
+{{ $data := index .Page.Site.Data.talks .Page.Params.event.tag }}
 {{ with $data.talks }}
   {{ range . }}
     <div class="talks" style="padding-left: 10px; margin-left: 10px; border-left: 5px solid #373b50; margin-bottom: 15px; padding-top: 10px; padding-bottom: 10px;">
       <div>
+        {{ with .video }}<span style="float: right;"><a href="https://www.youtube.com/watch?v={{ . }}"><iron-image src="/images/youtube-logo.png" sizing="contain" title="{{ i18n "watch_video" }}"></iron-image></a></span>{{ end }}
         <strong>{{ .title }}</strong>
         {{ with .abstract }}
           <blockquote>{{ . }}</blockquote>

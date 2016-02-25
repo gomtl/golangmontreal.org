@@ -4,6 +4,7 @@ categories:
 date: 2016-02-15T18:12:00-05:00
 meetupEvent: 228221625
 event:
+  tag: gomtl-01
   date: "Monday, Feb 22nd, 2016"
   venue: "Google Montreal"
   address: "1253 McGill College #150, Montréal, QC H3B 2Y5"
@@ -33,7 +34,7 @@ Voici le programme du 22 février (assurez-vous de [*RSVP*](http://www.meetup.co
 
 <!--more-->
 
-{{% talks gomtl-01 %}}
+{{% talks %}}
 
 Les présentations sont pour la plupart en anglais cette fois-ci, mais nous
 espérons avoir des présentations en français lors des prochains événements.

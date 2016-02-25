@@ -8,6 +8,7 @@ talks:
       We'll demonstrate Go bridges to Javascript (otto, GopherJS) and Python
       (gopy). Everything in this session will be live coded
       from scratch.
+    video: YmI7Gw4iq3w
 
   - title: "slackd : Real-time log based alerting"
     presenter:
@@ -23,6 +24,7 @@ talks:
       How often am I getting a specific error?  What is the context ?
       slackd focuses on anomalies and areas of the code which the
       developer flags as interesting.
+    video: 3QpS4qO3Efo
 
   - title: "Spelunking in the standard library: A net/http adventure!"
     presenter:
@@ -33,6 +35,7 @@ talks:
       An exploration of the net/http package, the things it
       does for you, and the interfaces it exposes, and an overview of some
       packages that work well with it.
+    video: oyTgx6S87XY
 
   - title: WebSockets in Go
     presenter:
@@ -43,6 +46,7 @@ talks:
       We will be looking into websockets, how to create them and
       connect from client for transmission of the data, we'll write a
       server and implement sockets inside it and echo the request.
+    video: PrVFvHR8HGM
 
   - title: "Quick & Scalable Development - Micro-Services Monolithically?"
     presenter:
@@ -62,3 +66,4 @@ talks:
     abstract: |
       We will explore the idea of a distributed bug tracking system, and take
       a look at an implementation, by Dave MacFarlane himself.
+    video: ysgMlGHtDMo

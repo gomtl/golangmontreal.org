@@ -1,0 +1,108 @@
+{{ $data := index .Site.Data.talks .Params.event.tag }}
+
+<!-- This section is to be used in conjunction with github.com/abourget/video-automation -->
+
+<script defer type="text/javascript">
+  window.loadVideoAutomation = function() {
+    var tweenmax = document.createElement("script");
+    tweenmax.src = "//cdnjs.cloudflare.com/ajax/libs/gsap/1.9.2/TweenMax.min.js";
+    document.head.appendChild(tweenmax);
+
+    setTimeout(window.launchVideoAutomation, 1000);
+  };
+
+  window.launchVideoAutomation = function() {
+    var videoData = document.querySelector("#video-automation");
+    document.body.innerHTML = videoData.innerHTML;
+
+    console.log("Starting timeline");
+
+    var tl = new TimelineMax();
+    var el;
+    window.timeline = tl;
+    tl.set("body", {className: "+=layout"}, "start");
+    tl.set("body", {className: "+=fit"});
+    tl.set("body", {overflow: "hidden"});
+    tl.set(".automation-sponsors", {display: "none", opacity: 0});
+
+{{ with $data.talks }}{{ range $index, $talk := . }}
+
+    /* Section {{ $index }} */
+    el = "#talk-{{ $index }}";
+
+    tl.set("body", {className:"+=capture"}, "+=1");
+    tl.set(el + " .automation-info", {opacity: 0, marginRight: "-66%"});
+    tl.set(el + " .automation-logo img", {maxWidth: "0px"});
+
+    tl.to(el, 0.6, {opacity: 1}, "+=1");
+    tl.to(el + " .automation-logo img", 1.7, {maxWidth: "600px", ease: Power3.easeOut}, "-=0.5");
+    tl.to(el + " .automation-logo img", 1.5, {maxWidth: "300px", ease: Power2.easeOut});
+    tl.to(el + " .automation-info", 1.5, {marginRight: "0%"}, "-=1.5");
+    tl.to(el + " .automation-info", 1.5, {opacity: 1}, "-=1.5");
+    tl.to(el + " .automation-info", 0.5, {borderLeftColor: "#ddd"}, "+=0.5");
+    tl.to(el + " .automation-info", 0.5, {borderLeftColor: "#fff"}, "+=3");
+
+    tl.to(el, 0.5, {opacity: 0, ease: Power1.easeOut, display: "none"}, "+=0.5");
+
+    tl.to(".automation-sponsors", 0.5, {opacity: 1, display: "inherit"}, "+=0.2");
+    tl.to(".automation-sponsors", 0.5, {opacity: 0, display: "none"}, "+=2");
+
+    //tl.to("body", 1, {backgroundColor: "black", ease: Power1.easeOut}, "-=1");
+
+    tl.set("body", {className:"-=capture"}, "+=1");
+
+{{ end }}{{ end }}
+
+    tl.play();
+  };
+</script>
+
+<a onclick="loadVideoAutomation();">Video Automation</a>
+
+<div id="video-automation" style="display: none;">
+  {{ with $data.talks }}
+    {{ range $index, $talk := . }}
+      <div class="video-automation layout horizontal fit" id="talk-{{ $index }}" style="opacity: 0;">
+        <div class="automation-logo layout horizontal center-center flex">
+            <img src="/images/gomtl-logo-512.png">
+        </div>
+        <div class="automation-info layout vertical">
+          <div class="automation-top">
+            {{ $.Site.Title }} &mdash; #{{ $.Params.event.tag }}<br />
+            {{ $.Params.event.date }}
+          </div>
+
+          <div class="automation-middle layout horizontal center-center flex">
+            <div><strong>{{ $talk.title }}</strong></div>
+          </div>
+
+          <div class="automation-bottom">
+            <div>
+              <strong>{{ $talk.presenter.name }}</strong>
+              {{ with $talk.presenter.twitter }}
+                &nbsp; &nbsp; &nbsp; <span class="twitter">@{{ . }}</span>
+              {{ end }}
+
+              {{ with $talk.presenter.tagline }}
+                <div class="tagline"><span>{{ . }}</span></div>
+              {{ end }}
+            </div>
+
+          </div>
+        </div>
+      </div>
+    {{ end }}
+  {{ end }}
+
+  <div class="automation-sponsors layout vertical fit center-center ">
+    <h1>Thanks to our sponsors:</h1>
+
+    <div>
+    {{ range .Params.sponsors }}
+      {{ partial "sponsor.html" ( dict "sponsor" . "site" $.Site ) }}
+    {{ end }}
+    </div>
+
+  </div>
+
+</div>
