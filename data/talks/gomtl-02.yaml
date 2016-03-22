@@ -1,9 +1,25 @@
 talks:
-  - title: My Go Journey
+  - title: Introduction to Go
     presenter:
-      name: Steve Venzerul
-      twitter: ckm2k1
-      tagline: "Software Engineer at Intel / JS-Montreal organizer"
+      name: Alexandre Bourget
+      twitter: bourgetalexndre
+      tagline: "Data Scientist at Intel Security"
     abstract: |
-      Impressions on Go from a hard-boiled Javascript programmer.
-      The good, the bad, and the lack of generics.
+
+      In this talk, we will be doing a live demonstration of several of Go's
+      feature.  For new comers, this should wet your appetite, especially if you
+      come from some dynamically typed languages (JS, Python, Ruby, etc..). It
+      will be live coded and you can throw in your questions.
+
+  - title: "go-lua: A Lua 5.2 VM in Pure Go"
+    presenter:
+      name: Francis Bogsanyi
+      tagline: Production Engineering at Shopify
+      twitter: fbogsany
+    abstract: |
+
+      go-lua is an implementation of the Lua programming language written purely
+      in Go. Shopify uses go-lua as the core execution engine of our load
+      generation tool, Genghis. This presentation outlines its creation,
+      provides examples, and describes some challenges encountered along the
+      way.

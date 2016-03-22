@@ -56,10 +56,10 @@ au moins 24 heures avant l'événement.
 Le **lundi, le 22 février 2016**, à compter de **18h00**
 
 
-### Schedule
+### Horaire
 
 * **18h00** -- Ouverture des portes
-* **18h30** -- Première ronde deprésentations
+* **18h30** -- Première ronde de présentations
 * **19h35** -- Pause / Réseautage
 * **19h50** -- Deuxième ronde de présentations
 * **20h50** -- Fin
