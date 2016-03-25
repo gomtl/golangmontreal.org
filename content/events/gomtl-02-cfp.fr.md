@@ -13,6 +13,7 @@ event:
   zoom: 17
 sponsors:
   - shopify
+  - intel-security
 title: "#gomtl-02 - 29 mars - Appel à présenter"
 slug: gomtl-02-29-mars-appel-a-presenter
 

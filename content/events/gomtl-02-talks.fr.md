@@ -14,6 +14,7 @@ event:
   zoom: 17
 sponsors:
   - shopify
+  - intel-security
 title: "#gomtl-02 - 29 mars - Présentations"
 slug: gomtl-02-presentations-29-mars
 

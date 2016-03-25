@@ -13,6 +13,7 @@ event:
   zoom: 17
 sponsors:
   - shopify
+  - intel-security
 title: "#gomtl-02 - March 29th - Call for Speakers"
 slug: gomtl-02-march-29th-call-for-speakers
 
