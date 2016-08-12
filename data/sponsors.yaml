@@ -11,3 +11,8 @@ shopify:
   image: shopify-logo.svg
   name: Shopify
   url: https://www.shopify.ca
+
+la-gare:
+  image: la-gare.png
+  name: La Gare
+  url: https://garemtl.com/
