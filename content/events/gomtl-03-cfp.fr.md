@@ -8,7 +8,7 @@ event:
   venue: "La Gare"
   address: "5333 Avenue Casgrain #102, Montréal, QC H2T 1X6"
   latitude: 45.5259795
-  longitude: -73.5973024
+  longitude: -73.5951137
   map_link: https://goo.gl/maps/WvHY5fxdrx42
   zoom: 17
 sponsors:
