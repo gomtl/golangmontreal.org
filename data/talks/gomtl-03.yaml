@@ -1,9 +1,28 @@
 talks:
-  - title: My Go Journey
+  - title: "Tests in Go"
+    presenter:
+      name: "Dave MacFarlane"
+      tagline: "Sr Software Dev. @ McGill Centre For Integrative Neuroscience"
+    abstract: |
+
+      Dave will be giving an overview of the testing tools that come built in with Go.
+
+  - title: "Concurrency - from the perspective of a JS dev"
     presenter:
       name: Steve Venzerul
       twitter: ckm2k1
       tagline: "Software Engineer at Intel / JS-Montreal organizer"
     abstract: |
-      Impressions on Go from a hard-boiled Javascript programmer.
-      The good, the bad, and the lack of generics.
+
+      Will be going through an adventure with a race-y set, presenting some
+      features of Go's concurrency model.
+
+  - title: "Goa for microservices, or how to Generate All the Things"
+    presenter:
+      name: Alexandre Bourget
+      twitter: bourgetalexndre
+      tagline: "Data Scientist at Intel Security"
+    abstract: |
+
+      We'll be building a REST API, with Swagger API output, using the Goa code
+      generator.
