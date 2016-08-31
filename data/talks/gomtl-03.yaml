@@ -7,6 +7,8 @@ talks:
 
       Dave will be giving an overview of the testing tools that come built in with Go.
 
+    video: zuMSbK0Axpk
+
   - title: "Adventure with a race-y Set"
     presenter:
       name: Steve Venzerul
@@ -26,3 +28,5 @@ talks:
 
       We'll be building a REST API, with Swagger API output, using the Goa code
       generator.
+
+    video: snMls3Bysa4
