@@ -31,17 +31,6 @@ Envoyez-nous vos propositions à <a
 href="mailto:team@golangmontreal.org">team@golangmontreal.org</a>.
 
 
-{{ "<!--
-
-Nous avons quelques présentations prometteuses pour gomtl-03.
-
-Vous pouvez toujours soumettre vos propositions pour les prochains meetups à <a
-href="mailto:team@golangmontreal.org">team@golangmontreal.org</a>.
-
-Assurez-vous de [répondre au RSVP sur notre page meetup.com](http://www.meetup.com/fr-FR/GolangMontreal/events/237496306/) (ou via le widget rouge sur cette page).
-
-//-->" | safeHtml }}
-
 <!--more-->
 
 {{% talks %}}
