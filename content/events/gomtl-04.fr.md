@@ -30,7 +30,7 @@ développé ou appris avec la communauté.
 Envoyez-nous vos propositions à <a
 href="mailto:team@golangmontreal.org">team@golangmontreal.org</a>.
 
-<--
+<!--
 
 Nous avons quelques présentations prometteuses pour gomtl-03.
 
