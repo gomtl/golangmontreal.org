@@ -34,7 +34,8 @@ href="mailto:team@golangmontreal.org">team@golangmontreal.org</a>.
 
 {{% talks %}}
 
-There will be some food and drink at the event. Be there early!
+There will be some food and drink at the event. Be there early! 
+Make sure to RSVP on our [**meetup.com page**](https://www.meetup.com/GolangMontreal/events/237496306/)
 
 
 ### Where
