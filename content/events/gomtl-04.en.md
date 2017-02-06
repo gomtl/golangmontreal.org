@@ -15,7 +15,6 @@ event:
 sponsors:
   - intel-security
 title: "#gomtl-04 - February 23rd"
-draft: true
 slug: gomtl-04-february-23rd
 
 ---
