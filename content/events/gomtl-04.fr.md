@@ -35,7 +35,8 @@ href="mailto:team@golangmontreal.org">team@golangmontreal.org</a>.
 
 {{% talks %}}
 
-Il y aura bouffe et liqueur.  Arrivez tôt !
+Il y aura bouffe et liqueur.  Arrivez tôt ! 
+Assurez-vous de [répondre au RSVP sur notre page meetup.com](http://www.meetup.com/fr-FR/GolangMontreal/events/237496306/)
 
 
 ### Où
