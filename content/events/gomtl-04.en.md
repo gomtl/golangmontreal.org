@@ -29,7 +29,7 @@ learned with the community.
 Submit your talks to <a
 href="mailto:team@golangmontreal.org">team@golangmontreal.org</a>.
 
-<!--
+{{ "<!--
 
 We have exciting talks for our third meetup.
 
@@ -38,7 +38,7 @@ href="mailto:team@golangmontreal.org">team@golangmontreal.org</a>.
 
 Make sure to RSVP on our [meetup.com page](http://www.meetup.com/fr-FR/GolangMontreal/events/237496306/) (or through the red widget on this page).
 
--->
+//-->" | safeHtml }}
 
 <!--more-->
 
