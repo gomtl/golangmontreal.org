@@ -37,7 +37,7 @@ We have exciting talks for our third meetup.
 You can still submit your talks for our next events at <a
 href="mailto:team@golangmontreal.org">team@golangmontreal.org</a>.
 
-Make sure to RSVP on our [meetup.com page](http://www.meetup.com/fr-FR/GolangMontreal/events/233300680/) (or through the red widget on this page).
+Make sure to RSVP on our [meetup.com page](http://www.meetup.com/fr-FR/GolangMontreal/events/237496306/) (or through the red widget on this page).
 
 -->
 
@@ -56,7 +56,7 @@ https://goo.gl/maps/YzT5BTZ9uVS2)
 
 ### When
 
-Join us on **Tuesday, February 7th**, at 6:00 pm.
+Join us on **Thursday, February 23rd**, at 6:00 pm.
 
 
 ### Schedule
