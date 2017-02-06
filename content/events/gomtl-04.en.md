@@ -5,7 +5,7 @@ date: 2017-01-27T12:00:00-05:00
 #meetupEvent: 233300680
 event:
   tag: gomtl-04
-  date: "Tuesday, February 7th 2017"
+  date: "Thursday, February 23rd 2017"
   venue: "Notman House - Glassdoor Big Room"
   address: "51 Rue Sherbrooke O, Montréal, QC H2X 1X2"
   latitude: 45.5119281
@@ -14,8 +14,9 @@ event:
   zoom: 17
 sponsors:
   - intel-security
-title: "#gomtl-04 - February 7th"
-slug: gomtl-04-february-7th
+title: "#gomtl-04 - February 23rd"
+draft: true
+slug: gomtl-04-february-23rd
 
 ---
 
