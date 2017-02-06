@@ -2,7 +2,7 @@
 categories:
  - news
 date: 2017-01-27T12:00:00-05:00
-#meetupEvent: 233300680
+meetupEvent: 237496306
 event:
   tag: gomtl-04
   date: "Jeudi, 23 février 2017"
