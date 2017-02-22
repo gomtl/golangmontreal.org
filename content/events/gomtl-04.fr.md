@@ -6,7 +6,7 @@ meetupEvent: 237496306
 event:
   tag: gomtl-04
   date: "Jeudi, 23 février 2017"
-  venue: "Notman House - Grande salle"
+  venue: "Notman House - Grande salle Ouest"
   address: "51 Rue Sherbrooke O, Montréal, QC H2X 1X2"
   latitude: 45.5119281
   longitude: -73.5700653
@@ -14,9 +14,11 @@ event:
   zoom: 17
 sponsors:
   - intel-security
-title: "#gomtl-04 - February 23rd" 
+title: "#gomtl-04 - 23 février"
 slug: gomtl-04-23-fevrier
 ---
+
+<!--
 
 Nous lançons aujourd'hui l'_Appel à présenter_ pour notre troisième
 meetup cette année.
@@ -30,13 +32,20 @@ développé ou appris avec la communauté.
 Envoyez-nous vos propositions à <a
 href="mailto:team@golangmontreal.org">team@golangmontreal.org</a>.
 
+-->
+
+Voici les présentations pour gomtl-04.
+
+Vous pouvez toujours soumettre vos propositions pour les prochains meetups à <a
+href="mailto:team@golangmontreal.org">team@golangmontreal.org</a>.
+
+Assurez-vous de [répondre au RSVP sur notre page meetup.com](http://www.meetup.com/fr-FR/GolangMontreal/events/237496306/) (ou via le widget rouge sur cette page).
 
 <!--more-->
 
 {{% talks %}}
 
-Il y aura bouffe et liqueur.  Arrivez tôt ! 
-Assurez-vous de [répondre au RSVP sur notre page meetup.com](http://www.meetup.com/fr-FR/GolangMontreal/events/237496306/)
+Il y aura bouffe et liqueur.  Arrivez tôt !
 
 
 ### Où

@@ -19,6 +19,9 @@ slug: gomtl-04-february-23rd
 
 ---
 
+
+<!--
+
 Today we launch the _Call for Speakers_ for our first meetup this year.
 
 We are looking for lightning talks of 5 minutes, and longer talks of 30 minutes.
@@ -29,13 +32,21 @@ learned with the community.
 Submit your talks to <a
 href="mailto:team@golangmontreal.org">team@golangmontreal.org</a>.
 
+-->
+
+Here are the talks for gomtl-04.
+
+You can still submit your talks for our next events at <a
+href="mailto:team@golangmontreal.org">team@golangmontreal.org</a>.
+
+Make sure to RSVP on our [meetup.com page](http://www.meetup.com/fr-FR/GolangMontreal/events/237496306/) (or through the red widget on this page).
+
 
 <!--more-->
 
 {{% talks %}}
 
-There will be some food and drink at the event. Be there early! 
-Make sure to RSVP on our [**meetup.com page**](https://www.meetup.com/GolangMontreal/events/237496306/)
+There will be some food and drink at the event. Be there early!
 
 
 ### Where

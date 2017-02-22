@@ -1,0 +1,32 @@
+talks:
+  - title: "Ten Tiny Tools"
+    presenter:
+      name: "John Gosset"
+      twitter: jgosset_
+      tagline: "Programmer, Consultant & Trainer at Gosset Technologies Inc."
+    abstract: |
+
+      A review of ten tiny tools I've written in Go to scratch personal itches,
+      from wrangling text, to working with GitHub, to generating PDF files. Via
+      code review, I'll discuss design principles & problem solving approaches,
+      costs & tradeoffs, successes & failures.
+
+  - title: "Go Everywhere"
+    presenter:
+      name: "Ben Postlethwaite"
+      twitter: benp0st
+      tagline: "Plotly's unrequited gopher"
+    abstract: |
+
+      How to write a mobile app and CLI app with a single Go library.
+
+  - title: "New things in Go 1.8"
+    presenter:
+      name: Alexandre Bourget
+      twitter: bourgetalexndre
+      tagline: "Data Scientist at Intel Security"
+    abstract: |
+
+      We'll demo a few new things in Go 1.8, plugins, additions to the http
+      stack, better context deadlines support, and a quick glance at performance
+      improvements.
