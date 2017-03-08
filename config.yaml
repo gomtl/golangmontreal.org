@@ -6,7 +6,8 @@ baseurl: "https://golangmontreal.org"
 paginate: 10
 
 MetaDataFormat: "yaml"
-DefaultContentLang: en
+defaultContentLang: en
+defaultContentLanguageInSubdir: true
 
 menu:
   - main

@@ -1,7 +1,7 @@
 {{ $baseurl := .Site.BaseURL }}
 {{ $lang := .Site.Language.Lang }}
 <!doctype html>
-<html lang="{{.Site.Language.Lang}}">
+<html lang="{{.Site.LanguageCode}}">
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -339,8 +339,7 @@
 
         </div>
 
-
-        {{if .IsPage}}
+        {{if $.IsPage}}
           {{if $.IsTranslated }}
             {{ range $tx := $.Translations }}
               <a href="{{ $tx.Permalink }}">{{ i18n ( printf "language_switcher_%s" $tx.Lang ) }}</a>
@@ -348,7 +347,7 @@
           {{end}}
         {{end}}
 
-        {{if .IsNode}}
+        {{if $.IsNode}}
           {{ range $txLang := .Site.Languages }}
             {{if ne $lang $txLang.Lang}}
               <a href="/{{$txLang.Lang}}">{{ i18n ( printf "language_switcher_%s" $txLang.Lang ) }}</a>
