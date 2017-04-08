@@ -19,6 +19,7 @@ Languages:
 
     title: "Golang Montréal"
     languageCode: "en-CA"
+    enableMissingTranslationPlaceholders: true
 
     copyright: "(ɔ) 2015 Copyleft. The #gomtl team."
 
@@ -27,6 +28,7 @@ Languages:
 
     title: "Golang Montréal"
     languageCode: "fr-CA"
+    enableMissingTranslationPlaceholders: true
 
     copyright: "(ɔ) 2015 L'équipe #gomtl. Tous droits renversés."
 

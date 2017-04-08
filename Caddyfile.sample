@@ -1,0 +1,16 @@
+http://www.golangmontreal.com {
+    redir https://golangmontreal.org{uri}
+}
+
+# TLS unwrapped in the Kubernetes Ingress
+http://golangmontreal.org {
+    log golangmontreal.org.access.log
+    errors golangmontreal.org.error.log
+
+    root /home/ubuntu/golangmontreal.org/public
+    git https://github.com/gomtl/golangmontreal.org.git {
+        hook /trigger/a/freaking/rebuild Vioshu9eshnamoquin
+        path ../
+        then hugo --destination=/home/ubuntu/golangmontreal.org/public
+    }
+}
