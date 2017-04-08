@@ -16,6 +16,7 @@ ADD ./config.yaml /app/config.yaml
 ADD ./archetypes /app/archetypes
 ADD ./content /app/content
 ADD ./i18n /app/i18n
+ADD ./data /app/data
 ADD ./layouts /app/layouts
 ADD ./public /app/public
 ADD ./static /app/static
