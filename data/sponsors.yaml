@@ -16,3 +16,8 @@ la-gare:
   image: la-gare.png
   name: La Gare
   url: https://garemtl.com/
+
+edgenda:
+  image: edgenda.png
+  name: Edgenda
+  url: https://edgenda.com
