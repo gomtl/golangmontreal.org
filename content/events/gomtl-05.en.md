@@ -20,7 +20,7 @@ slug: gomtl-05-hacknight-october-17th
 ---
 
 
-This time, we'Re doing a hacknight. See details on our Meetup page.  Basically, we're doing this:
+This time, we're doing a hacknight. See details on our Meetup page.  Basically, we're doing this:
 
 https://github.com/gomtl/hot-potato-challenge
 
