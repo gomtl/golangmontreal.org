@@ -21,3 +21,8 @@ edgenda:
   image: edgenda.png
   name: Edgenda
   url: https://edgenda.com
+
+eoscanada:
+  image: eoscanada.png
+  name: EOS Canada
+  url: https://www.eoscanada.com

@@ -1,0 +1,12 @@
+talks:
+  - title: "Building an Employee Rewards Program on the EOS blockchain"
+    presenter:
+      name: Alexandre Bourget
+      twitter: bourgetalexndre
+      tagline: "Co-Founder at EOS Canada"
+    abstract: |
+
+      After a quick overview of some basic EOS concepts, we'll live code a Go
+      program that interacts with an EOS Smart Contract implementing a full
+      blown Employee Rewards Program similar to Shopify's Unicorn system, but
+      decentralized and with crypto.
