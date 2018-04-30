@@ -20,7 +20,7 @@ slug: gomtl-06-blockchain-eos-et-go-7-mai-2018
 
 Ce meetup Golang Montréal est dédié à [EOS](https://eos.io).
 
-EOS est un blockchain de troisième génération qui sera lançé le 1-2 juin 2018.
+EOS est un blockchain de troisième génération qui sera lancé le 1-2 juin 2018.
 
 Durant le mois de mai, la communauté EOS organise un hackathon global appelé
 [Hack Til Dawn](https://hack-til-dawn.com/).
