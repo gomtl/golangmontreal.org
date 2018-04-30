@@ -14,8 +14,8 @@ event:
   zoom: 17
 sponsors:
   - eoscanada
-title: "#gomtl-06 - EOS Blockchain et Go - 7 mai 2018"
-slug: gomtl-06-eos-blockchain-et-go-7-mai-2018
+title: "#gomtl-06 - Blockchain EOS et Go - 7 mai 2018"
+slug: gomtl-06-blockchain-eos-et-go-7-mai-2018
 ---
 
 Ce meetup Golang Montréal est dédié à [EOS](https://eos.io).
