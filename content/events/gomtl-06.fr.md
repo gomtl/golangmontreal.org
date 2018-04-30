@@ -35,13 +35,13 @@ blockchain. Ce sera rafraîchissant d'avoir quelque chose de concret à mâcher!
 Cet événement est commandité par EOS Canada, vos collègues de la communauté de
 Montréal.
 
-{{% talks %}}
-
 Assurez-vous de [répondre au RSVP sur notre page meetup.com](http://www.meetup.com/fr-FR/GolangMontreal/events/250292316/) (ou via le widget rouge sur cette page).
 
 LES PLACES SONT LIMITÉES!
 
 <!--more-->
+
+{{% talks %}}
 
 Il y aura à manger et à boire.  Arrivez tôt !
 

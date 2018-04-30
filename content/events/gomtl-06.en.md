@@ -35,15 +35,13 @@ refreshing to have something concrete to chew on!
 
 This event is sponsored by EOS Canada, folks from the Montreal community.
 
-
-{{% talks %}}
-
-
 Make sure to [RSVP on our meetup.com page](http://www.meetup.com/fr-FR/GolangMontreal/events/250292316/) (or through the red widget on this page).
 
 LIMITED PLACES!
 
 <!--more-->
+
+{{% talks %}}
 
 There will be some food and drink at the event. Be there early!
 
