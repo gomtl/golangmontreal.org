@@ -51,10 +51,11 @@
 
     <h4>{{ i18n "sponsors" }}</h4>
 
+    {{ partial "sponsor.html" (dict "sponsor" "eoscanada" "site" .Site ) }}
     {{ partial "sponsor.html" (dict "sponsor" "google" "site" .Site ) }}
-    {{ partial "sponsor.html" (dict "sponsor" "edgenda" "site" .Site ) }}
     {{ partial "sponsor.html" (dict "sponsor" "shopify" "site" .Site ) }}
     {{ partial "sponsor.html" (dict "sponsor" "intel-security" "site" .Site ) }}
+    {{ partial "sponsor.html" (dict "sponsor" "edgenda" "site" .Site ) }}
     {{ partial "sponsor.html" (dict "sponsor" "la-gare" "site" .Site ) }}
 
     <!-- h4>{{ i18n "partners" }}</h4-->
