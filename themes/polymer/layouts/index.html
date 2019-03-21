@@ -29,7 +29,8 @@
             latitude="{{ $eventData.latitude }}"
             zoom="{{ $eventData.zoom }}"
             language="{{ $lang }}" style="height: 450px;"
-            disable-zoom="true">
+            disable-zoom="true"
+            api-key="AIzaSyAAhXurUtig-L2BqZE-BS5hWLXBxcsqi5A">
   <google-map-marker longitude="{{ $eventData.longitude }}" latitude="{{ $eventData.latitude }}"
                      title="{{ $eventData.venue }}" draggable="true">
     <h5>{{ $eventData.venue }}</h5>
